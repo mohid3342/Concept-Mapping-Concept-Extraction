@@ -1,0 +1,7 @@
+--- Slide 1 ---
+Hello, World!
+python-pptx was here!
+
+--- Slide 2 ---
+Hello 2 World
+
