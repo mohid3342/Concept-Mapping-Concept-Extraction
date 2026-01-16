@@ -1,11 +1,10 @@
 from pptx import Presentation
 from pptx.enum.shapes import MSO_SHAPE_TYPE
 
-#pptx_path = r"C:\Users\Mohid\OneDrive\Documents\GitHub\MohidCode\MainCode\Code\Python\VSCode\COSC 481\test.pptx"
-txt_path = r"C:\Users\Mohid\OneDrive\Documents\GitHub\MohidCode\MainCode\Code\Python\VSCode\COSC 481\extracted_text3.txt"
-pptx_path2 = r"C:\Users\Mohid\OneDrive\Documents\GitHub\MohidCode\MainCode\Code\Python\VSCode\COSC 481\TPL_Chapter_1.pptx"
+pptx_path = r"C:\Users\Mohid\OneDrive\Documents\GitHub\Concept-Mapping-Concept-Extraction\PythonPPTX_Testing\test.pptx"
+txt_path = r"C:\Users\Mohid\OneDrive\Documents\GitHub\Concept-Mapping-Concept-Extraction\PythonPPTX_Testing\extractionTest.txt"
 
-prs = Presentation(pptx_path2)
+prs = Presentation(pptx_path)
 
 def get_alt_text(shape):
     try:
