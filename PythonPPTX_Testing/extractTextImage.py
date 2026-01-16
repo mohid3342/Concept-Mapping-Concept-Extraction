@@ -3,9 +3,9 @@ from pptx.enum.shapes import MSO_SHAPE_TYPE
 
 #pptx_path=r"C:\Users\Mohid\OneDrive\Documents\GitHub\MohidCode\MainCode\Code\Python\VSCode\COSC 481\test.pptx"
 txt_path=r"C:\Users\Mohid\OneDrive\Documents\GitHub\MohidCode\MainCode\Code\Python\VSCode\COSC 481\extracted_text3.txt"
-pptx_path=r"C:\Users\Mohid\OneDrive\Documents\GitHub\MohidCode\MainCode\Code\Python\VSCode\COSC 481\TPL_Chapter_1.pptx"
+pptx_path2=r"C:\Users\Mohid\OneDrive\Documents\GitHub\MohidCode\MainCode\Code\Python\VSCode\COSC 481\TPL_Chapter_1.pptx"
 
-prs=Presentation(pptx_path)
+prs=Presentation(pptx_path2)
 
 def get_alt_text(shape):
     try:
