@@ -1,0 +1,6536 @@
+[
+  {
+    "slide_number": 1,
+    "title": "Chapter 1",
+    "text_blocks": [
+      [
+        {
+          "text": "Chapter 1",
+          "runs": [
+            {
+              "text": "Chapter 1",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Preliminaries",
+          "runs": [
+            {
+              "text": "Preliminaries",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "",
+          "runs": []
+        }
+      ],
+      [
+        {
+          "text": "",
+          "runs": []
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 2,
+    "title": "Just so you know...",
+    "text_blocks": [
+      [
+        {
+          "text": "Just so you know...",
+          "runs": [
+            {
+              "text": "Just so you know...",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Original (copyrighted) slides have often been modified somewhat by Dr Jackson",
+          "runs": [
+            {
+              "text": "Original (copyrighted) slides have often been modified somewhat by Dr Jackson",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Technically, this is a violation of copyright, but I'm pretty sure no one will mind.  ",
+          "runs": [
+            {
+              "text": "Technically, this is a violation of copyright, but I'm pretty sure no one will mind.  ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Still, this is being performed by a professional driver on a closed course; don't try this at home.",
+          "runs": [
+            {
+              "text": "Still, this is being performed by a professional driver on a closed course; don't try this at home.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-2",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 3,
+    "title": "Chapter 1 Topics",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-3",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Chapter 1 Topics",
+          "runs": [
+            {
+              "text": "Chapter 1 Topics",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Reasons for Studying Concepts of Programming Languages",
+          "runs": [
+            {
+              "text": "Reasons for Studying Concepts of Programming Languages",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Programming Domains",
+          "runs": [
+            {
+              "text": "Programming Domains",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Language Evaluation Criteria",
+          "runs": [
+            {
+              "text": "Language Evaluation Criteria",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Influences on Language Design",
+          "runs": [
+            {
+              "text": "Influences on Language Design",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Language Categories",
+          "runs": [
+            {
+              "text": "Language Categories",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Language Design Trade-Offs",
+          "runs": [
+            {
+              "text": "Language Design Trade-Offs",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Implementation Methods",
+          "runs": [
+            {
+              "text": "Implementation Methods",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Programming Environments",
+          "runs": [
+            {
+              "text": "Programming Environments",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 4,
+    "title": "Reasons for Studying Concepts of Programming Languages",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-4",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Reasons for Studying Concepts of Programming Languages",
+          "runs": [
+            {
+              "text": "Reasons for Studying Concepts of Programming Languages",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Increased ability to express ideas",
+          "runs": [
+            {
+              "text": "Increased ability to express ideas",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Improved background for choosing appropriate languages",
+          "runs": [
+            {
+              "text": "Improved background for choosing appropriate languages",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Increased ability to learn new languages",
+          "runs": [
+            {
+              "text": "Increased ability to learn new languages",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Better use of languages that are already known (e.g., using language as it was designed to be used)",
+          "runs": [
+            {
+              "text": "Better use of languages that are already known (e.g., using language as it was designed to be used)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Overall advancement of computing: the \"most popular\" languages are not always best and can actually set our field back!",
+          "runs": [
+            {
+              "text": "Overall advancement of computing: the \"most popular\" languages are not always best and can actually set our field back!",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 5,
+    "title": "Speaking of most popular languages...",
+    "text_blocks": [
+      [
+        {
+          "text": "Speaking of most popular languages...",
+          "runs": [
+            {
+              "text": "Speaking of most popular languages...",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "From IEEE Spectrum. Top languages by jobs:",
+          "runs": [
+            {
+              "text": "From ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "IEEE Spectrum",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": ". Top languages by jobs:",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-5",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [
+      {
+        "alt_text": ""
+      }
+    ]
+  },
+  {
+    "slide_number": 6,
+    "title": "Speaking of most popular languages...",
+    "text_blocks": [
+      [
+        {
+          "text": "Speaking of most popular languages...",
+          "runs": [
+            {
+              "text": "Speaking of most popular languages...",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-6",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Trending languages (largely measured by StackOverflow posts):",
+          "runs": [
+            {
+              "text": "Trending languages (largely measured by ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "StackOverflow",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": " posts):",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [
+      {
+        "alt_text": ""
+      }
+    ]
+  },
+  {
+    "slide_number": 7,
+    "title": "Some Programming Domains",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-7",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Some Programming Domains",
+          "runs": [
+            {
+              "text": "Some Programming Domains",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Scientific applications",
+          "runs": [
+            {
+              "text": "Scientific applications",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Large numbers of floating point computations; use of arrays",
+          "runs": [
+            {
+              "text": "Large numbers of floating point computations; use of arrays",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Fortran was once popular, Python is dominant now.",
+          "runs": [
+            {
+              "text": "Fortran",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": " was once popular, ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "Python",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": " is dominant now.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Business applications",
+          "runs": [
+            {
+              "text": "Business applications",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Produce reports, use decimal numbers and characters",
+          "runs": [
+            {
+              "text": "Produce reports, use decimal numbers and characters",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "COBOL was an early popular language for these apps, still in use!",
+          "runs": [
+            {
+              "text": "COBOL",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": " was an early popular language for these apps, still in use!",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Artificial intelligence",
+          "runs": [
+            {
+              "text": "Artificial intelligence",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Early AI was largely symbolic processing, LISP was the original major symbolic language. Scheme is very LISP-like.",
+          "runs": [
+            {
+              "text": "Early AI was largely symbolic processing, ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "LISP",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": " was the original major symbolic language. ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "Scheme",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": " is very LISP-like.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Python popular for machine learning.",
+          "runs": [
+            {
+              "text": "Python",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": " popular for machine learning.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Systems programming",
+          "runs": [
+            {
+              "text": "Systems programming",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Need efficiency because of continuous use",
+          "runs": [
+            {
+              "text": "Need efficiency because of continuous use",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "C remains popular for systems prog'g and embedded apps; Rust is a newer alternative.",
+          "runs": [
+            {
+              "text": "C",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": " remains popular for systems ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "prog'g",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": " and embedded apps; ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "Rust",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": " is a newer alternative.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 8,
+    "title": "Some Programming Domains",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-8",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Some Programming Domains",
+          "runs": [
+            {
+              "text": "Some Programming Domains",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Web development",
+          "runs": [
+            {
+              "text": "Web development",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Frontend (browser UI) language: JavaScript/TypeScript",
+          "runs": [
+            {
+              "text": "Frontend (browser UI) language: ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "JavaScript",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "/",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "TypeScript",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Backend (server) languages: many, including Java, Python, C#, Ruby, PHP",
+          "runs": [
+            {
+              "text": "Backend (server) languages: many, including ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "Java",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": ", ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "Python",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": ", ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "C#",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": ", ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "Ruby, PHP",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Mobile applications",
+          "runs": [
+            {
+              "text": "Mobile applications",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 22.0
+            }
+          ]
+        },
+        {
+          "text": "Android: originally Java, newer Kotlin",
+          "runs": [
+            {
+              "text": "Android: originally ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "Java",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": ", newer ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "Kotlin",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "IOS: originally Objective C, newer Swift",
+          "runs": [
+            {
+              "text": "IOS: originally ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "Objective C",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": ", newer ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "Swift",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Cross-platform: JavaScript (React Native), Dart (Flutter) ",
+          "runs": [
+            {
+              "text": "Cross-platform: ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "JavaScript",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": " (React Native), ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "Dart",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": " (Flutter) ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 9,
+    "title": "Language Evaluation Criteria",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-9",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Language Evaluation Criteria",
+          "runs": [
+            {
+              "text": "Language Evaluation Criteria",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Readability: the ease with which programs can be read and understood",
+          "runs": [
+            {
+              "text": "Readability",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": ": the ease with which programs can be read and understood",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Writability: the ease with which a language can be used to create programs",
+          "runs": [
+            {
+              "text": "Writability",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": ": the ease with which a language can be used to create programs",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Reliability: how easy/hard is it to introduce/detect/handle bugs?",
+          "runs": [
+            {
+              "text": "Reliability",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": ": how easy/hard is it to introduce/detect/handle bugs?",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Cost: how much does it cost (total) to develop and maintain a program using language A vs. language B?  (Includes training costs, software tool costs, etc.)",
+          "runs": [
+            {
+              "text": "Cost",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": ": how much does it cost (total) to develop and maintain a program using language A vs. language B?  (Includes training costs, software tool costs, etc.)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 10,
+    "title": null,
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2007 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2007 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        },
+        {
+          "text": "",
+          "runs": []
+        }
+      ],
+      [
+        {
+          "text": "1–10",
+          "runs": [
+            {
+              "text": "1–",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [
+      {
+        "alt_text": ""
+      }
+    ]
+  },
+  {
+    "slide_number": 11,
+    "title": "Evaluation Criteria: Readability",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-11",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Evaluation Criteria: Readability",
+          "runs": [
+            {
+              "text": "Evaluation Criteria: Readability",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Overall simplicity",
+          "runs": [
+            {
+              "text": "Overall simplicity",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Minimal feature multiplicity (multiple ways to do task)",
+          "runs": [
+            {
+              "text": "Minimal feature ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "multiplicity",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": " (multiple ways to do task)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Negative Java example: four ways to increment a variable",
+          "runs": [
+            {
+              "text": "Negative Java example: four ways to increment a variable",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 17.0
+            }
+          ]
+        },
+        {
+          "text": "Minimal operator overloading (+ is overloaded in Java)",
+          "runs": [
+            {
+              "text": "Minimal operator ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "overloading",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": " (+ is overloaded in Java)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "System.out.println(\"Sum is \" + 2 + 3);",
+          "runs": [
+            {
+              "text": "System.out.println(\"Sum is \" + 2 + 3);",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 17.0
+            }
+          ]
+        },
+        {
+          "text": "Orthogonality ",
+          "runs": [
+            {
+              "text": "Orthogonality ",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "A relatively small set of primitive constructs can be combined in every possible way to build the language's control and data structures",
+          "runs": [
+            {
+              "text": "A relatively small set of primitive constructs can be combined in every possible way to build the language's control and data structures",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Example: In functional languages, every operator is a function\u000b",
+          "runs": [
+            {
+              "text": "Example: In functional languages, every operator is a function",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "(if (eq? b '())",
+          "runs": [
+            {
+              "text": "(if (eq? b '())",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 16.0
+            }
+          ]
+        },
+        {
+          "text": "            (list (list a b))",
+          "runs": [
+            {
+              "text": "            (list (list a b))",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 16.0
+            }
+          ]
+        },
+        {
+          "text": "            (cons (list a b) ",
+          "runs": [
+            {
+              "text": "            (cons (list a b) ",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 16.0
+            }
+          ]
+        },
+        {
+          "text": "                  (allappends",
+          "runs": [
+            {
+              "text": "                  (allappends",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 16.0
+            }
+          ]
+        },
+        {
+          "text": "                   (append a (list (car b))) ",
+          "runs": [
+            {
+              "text": "                   (append a (list (car b))) ",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 16.0
+            }
+          ]
+        },
+        {
+          "text": "                   (cdr b))))",
+          "runs": [
+            {
+              "text": "                   (cdr b))))",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 16.0
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 12,
+    "title": "Evaluation Criteria: Readability",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-12",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Evaluation Criteria: Readability",
+          "runs": [
+            {
+              "text": "Evaluation Criteria: Readability",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Overall simplicity",
+          "runs": [
+            {
+              "text": "Overall simplicity",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Minimal feature multiplicity (multiple ways to do task)",
+          "runs": [
+            {
+              "text": "Minimal feature ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "multiplicity",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": " (multiple ways to do task)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Negative Java example: four ways to increment a variable",
+          "runs": [
+            {
+              "text": "Negative Java example: four ways to increment a variable",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 17.0
+            }
+          ]
+        },
+        {
+          "text": "Minimal operator overloading (+ is overloaded in Java)",
+          "runs": [
+            {
+              "text": "Minimal operator ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "overloading",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": " (+ is overloaded in Java)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "System.out.println(\"Sum is \" + 2 + 3);",
+          "runs": [
+            {
+              "text": "System.out.println",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 17.0
+            },
+            {
+              "text": "(\"Sum is \" + 2 + 3);",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 17.0
+            }
+          ]
+        },
+        {
+          "text": "Orthogonality ",
+          "runs": [
+            {
+              "text": "Orthogonality ",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "A relatively small set of primitive constructs can be combined in every possible way to build the language's control and data structures",
+          "runs": [
+            {
+              "text": "A relatively small set of primitive constructs can be combined in every possible way to build the language's control and data structures",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Example: In functional languages such as Scheme, every operator is a function\u000b",
+          "runs": [
+            {
+              "text": "Example: In ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "functional",
+              "bold": null,
+              "italic": true,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": " languages such as Scheme, every operator is a function",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "(if (eq? b '())",
+          "runs": [
+            {
+              "text": "(if (eq? b '())",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 16.0
+            }
+          ]
+        },
+        {
+          "text": "            (list (list a b))",
+          "runs": [
+            {
+              "text": "            (list (list a b))",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 16.0
+            }
+          ]
+        },
+        {
+          "text": "            (cons (list a b) ",
+          "runs": [
+            {
+              "text": "            (cons (list a b) ",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 16.0
+            }
+          ]
+        },
+        {
+          "text": "                  (allappends",
+          "runs": [
+            {
+              "text": "                  (",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 16.0
+            },
+            {
+              "text": "allappends",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 16.0
+            }
+          ]
+        },
+        {
+          "text": "                   (append a (list (car b))) ",
+          "runs": [
+            {
+              "text": "                   (append a (list (car b))) ",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 16.0
+            }
+          ]
+        },
+        {
+          "text": "                   (cdr b))))",
+          "runs": [
+            {
+              "text": "                   (",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 16.0
+            },
+            {
+              "text": "cdr",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 16.0
+            },
+            {
+              "text": " b))))",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 16.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "",
+          "runs": []
+        }
+      ],
+      [
+        {
+          "text": "",
+          "runs": []
+        }
+      ],
+      [
+        {
+          "text": "",
+          "runs": []
+        }
+      ],
+      [
+        {
+          "text": "",
+          "runs": []
+        }
+      ],
+      [
+        {
+          "text": "",
+          "runs": []
+        }
+      ],
+      [
+        {
+          "text": "",
+          "runs": []
+        }
+      ],
+      [
+        {
+          "text": "",
+          "runs": []
+        }
+      ],
+      [
+        {
+          "text": "",
+          "runs": []
+        }
+      ],
+      [
+        {
+          "text": "",
+          "runs": []
+        }
+      ],
+      [
+        {
+          "text": "",
+          "runs": []
+        }
+      ],
+      [
+        {
+          "text": "",
+          "runs": []
+        }
+      ],
+      [
+        {
+          "text": "functions",
+          "runs": [
+            {
+              "text": "functions",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Times",
+              "font_size": 24.0
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 13,
+    "title": "Orthogonality",
+    "text_blocks": [
+      [
+        {
+          "text": "Orthogonality",
+          "runs": [
+            {
+              "text": "Orthogonality",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Another example of orthogonality",
+          "runs": [
+            {
+              "text": "Another example of orthogonality",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Java: i = (j<0 ? -1 : 1);",
+          "runs": [
+            {
+              "text": "Java: i = (j<0 ? -1 : 1);",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Java needs a special operator to represent a conditional expression; \"if\" is not orthogonal.",
+          "runs": [
+            {
+              "text": "Java needs a special operator to represent a conditional expression; \"if\" is not orthogonal.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Ruby: i = if j<0\u000b                  -1\u000b               else\u000b                  1\u000b               end",
+          "runs": [
+            {
+              "text": "Ruby: i = if j<0",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "                  -1",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "               else",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "                  1",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "               end",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Ruby's if \"statement\" is actually an expression, so there is no need for a special conditional operator.",
+          "runs": [
+            {
+              "text": "Ruby's if \"statement\" is actually an expression, so there is no need for a special conditional operator.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-13",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 14,
+    "title": "Evaluation Criteria: Readability",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-14",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Evaluation Criteria: Readability",
+          "runs": [
+            {
+              "text": "Evaluation Criteria: Readability",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Data types: Should be adequate (counterexample: no Boolean in C)",
+          "runs": [
+            {
+              "text": "Data types: Should be adequate (counterexample: no Boolean in C)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Syntax considerations",
+          "runs": [
+            {
+              "text": "Syntax considerations",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Identifiers",
+          "runs": [
+            {
+              "text": "Identifiers",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Bad example: ANSI Minimal BASIC (1978) requires one-letter (possibly followed by one digit) identifiers!",
+          "runs": [
+            {
+              "text": "Bad example: ANSI Minimal BASIC (1978) requires one-letter (possibly followed by one digit) identifiers!",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 17.0
+            }
+          ]
+        },
+        {
+          "text": "Choice of special words (e.g., if, while)",
+          "runs": [
+            {
+              "text": "Choice of special words (e.g., ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "if",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 20.0
+            },
+            {
+              "text": ", ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "while",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 20.0
+            },
+            {
+              "text": ")",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Methods of forming compound statements",
+          "runs": [
+            {
+              "text": "Methods of forming compound statements",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "{ } in C and C-like languages (Java, C++, C#, JavaScript)",
+          "runs": [
+            {
+              "text": "{ }",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 17.0
+            },
+            {
+              "text": " in C and C-like languages (Java, C++, C#, JavaScript)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 17.0
+            }
+          ]
+        },
+        {
+          "text": "if ... end if in some languages, such as Ada and Ruby",
+          "runs": [
+            {
+              "text": "if",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 17.0
+            },
+            {
+              "text": " ... ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 17.0
+            },
+            {
+              "text": "end if ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 17.0
+            },
+            {
+              "text": "in some languages, such as Ada and Ruby",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 17.0
+            }
+          ]
+        },
+        {
+          "text": "if ... elif ... else ... fi in bash scripting",
+          "runs": [
+            {
+              "text": "if ... ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 17.0
+            },
+            {
+              "text": "elif",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 17.0
+            },
+            {
+              "text": " ... else ... fi ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 17.0
+            },
+            {
+              "text": "in bash scripting",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 17.0
+            }
+          ]
+        },
+        {
+          "text": "Form and meaning: Ideally, constructs are self-descriptive, keywords are meaningful; meaning (semantics) should follow from form (syntax).",
+          "runs": [
+            {
+              "text": "Form and meaning: Ideally, constructs are self-descriptive, keywords are meaningful; meaning (semantics) should follow from form (syntax).",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Counterexample: static keyword in C means very different things depending on context (either restricts scope to file if variable is global or specifies non-dynamic memory allocation if variable is local)",
+          "runs": [
+            {
+              "text": "Counterexample: ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 17.0
+            },
+            {
+              "text": "static",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 17.0
+            },
+            {
+              "text": " keyword in C means very different things depending on context (either restricts scope to file if variable is global or specifies non-dynamic memory allocation if variable is local)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 17.0
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 15,
+    "title": "Evaluation Criteria: Writability",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-15",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Evaluation Criteria: Writability",
+          "runs": [
+            {
+              "text": "Evaluation Criteria: Writability",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Simplicity and orthogonality",
+          "runs": [
+            {
+              "text": "Simplicity and orthogonality",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Large number of features can lead to errors due to misunderstanding some features or accidentally using a feature.",
+          "runs": [
+            {
+              "text": "Large number of features can lead to errors due to misunderstanding some features or accidentally using a feature.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Using = when you meant == and there's no error...",
+          "runs": [
+            {
+              "text": "Using = when you meant == and there's no error...",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 17.0
+            }
+          ]
+        },
+        {
+          "text": "Support for abstraction",
+          "runs": [
+            {
+              "text": "Support for ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "abstraction",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "The ability to easily define and use complex structures or operations in ways that allow details to be ignored",
+          "runs": [
+            {
+              "text": "The ability to easily define and use complex structures or operations in ways that allow details to be ignored",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Expressivity",
+          "runs": [
+            {
+              "text": "Expressivity",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "A set of relatively convenient ways of specifying computations (e.g., +=, for over elements of a collection)",
+          "runs": [
+            {
+              "text": "A set of relatively convenient ways of specifying computations (e.g., ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "+=",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 20.0
+            },
+            {
+              "text": ", ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "for",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 20.0
+            },
+            {
+              "text": " over elements of a collection)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Can also refer to \"strength\" of operators, ability to perform a great deal of computing with little coding (e.g., list slices in Python a[3:5])",
+          "runs": [
+            {
+              "text": "Can also refer to \"strength\" of operators, ability to perform a great deal of computing with little coding (e.g., list slices in Python ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "a[3:5]",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 20.0
+            },
+            {
+              "text": ")",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Number of language operators/predefined functions",
+          "runs": [
+            {
+              "text": "Number of language operators/predefined functions",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "",
+          "runs": []
+        },
+        {
+          "text": "",
+          "runs": []
+        },
+        {
+          "text": "",
+          "runs": []
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 16,
+    "title": "Evaluation Criteria: Reliability",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-16",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Evaluation Criteria: Reliability",
+          "runs": [
+            {
+              "text": "Evaluation Criteria: Reliability",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Type checking",
+          "runs": [
+            {
+              "text": "Type checking",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Testing for data type errors, e.g., assign text string to an int",
+          "runs": [
+            {
+              "text": "Testing for data type errors, e.g., assign text string to an int",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Exception handling",
+          "runs": [
+            {
+              "text": "Exception handling",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Intercept run-time errors and take corrective measures",
+          "runs": [
+            {
+              "text": "Intercept run-time errors and take corrective measures",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Aliasing",
+          "runs": [
+            {
+              "text": "Aliasing",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Presence of two or more distinct referencing methods for the same memory location (restricting can increase reliability)",
+          "runs": [
+            {
+              "text": "Presence of two or more distinct referencing methods for the same memory location (restricting can increase reliability)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Java: Complex a = new Complex(1.0,2.0); Complex b = a;",
+          "runs": [
+            {
+              "text": "Java: ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "Complex a = new Complex(1.0,2.0); Complex b = a;",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Readability and writability",
+          "runs": [
+            {
+              "text": "Readability and writability",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "A language that does not support “natural” or \"simple\" ways of expressing an algorithm will require the use  of “unnatural” or \"complex\" approaches, and hence reduce reliability (e.g., having to write i = i+1 rather than i+=1, lack of for each construct) ",
+          "runs": [
+            {
+              "text": "A language that does not support “natural” or \"simple\" ways of expressing an algorithm will require the use  of “unnatural” or \"complex\" approaches, and hence reduce reliability (e.g., having to write ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "i",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 18.0
+            },
+            {
+              "text": " = i+1",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 18.0
+            },
+            {
+              "text": " rather than ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "i",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 18.0
+            },
+            {
+              "text": "+=1",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 18.0
+            },
+            {
+              "text": ", lack of ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "for each ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 18.0
+            },
+            {
+              "text": "construct) ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "",
+          "runs": []
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 17,
+    "title": "Evaluation Criteria: Cost",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-17",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Evaluation Criteria: Cost",
+          "runs": [
+            {
+              "text": "Evaluation Criteria: Cost",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Time to train programmers to use the language",
+          "runs": [
+            {
+              "text": "Time to train programmers to use the language",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Time required to write programs (suitability to particular applications)",
+          "runs": [
+            {
+              "text": "Time required to write programs (suitability to particular applications)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Compilation/Execution time (time developers spend waiting for results)",
+          "runs": [
+            {
+              "text": "Compilation/Execution time (time developers spend waiting for results)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Financial cost of development tools",
+          "runs": [
+            {
+              "text": "Financial cost of development tools",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Financial costs related to reliability: poor reliability can lead to extremely high costs (lawsuits etc.)",
+          "runs": [
+            {
+              "text": "Financial costs related to reliability: poor reliability can lead to extremely high costs (lawsuits etc.)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Cost of maintaining project software following initial development",
+          "runs": [
+            {
+              "text": "Cost of maintaining project software following initial development",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Maintenance can cost ~2-4x development",
+          "runs": [
+            {
+              "text": "Maintenance can cost ~2-4x development",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 18,
+    "title": "Evaluation Criteria: Others",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-18",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Evaluation Criteria: Others",
+          "runs": [
+            {
+              "text": "Evaluation Criteria: Others",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Portability",
+          "runs": [
+            {
+              "text": "Portability",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "The ease with which programs written in a language can be moved from one implementation of the language to another",
+          "runs": [
+            {
+              "text": "The ease with which programs written in a language can be moved from one implementation of the language to another",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Major selling point (not quite true) for Java: \"write once, run everywhere\"",
+          "runs": [
+            {
+              "text": "Major selling point (not quite true) for Java: \"write once, run everywhere\"",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Generality",
+          "runs": [
+            {
+              "text": "Generality",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "The applicability to a wide range of applications",
+          "runs": [
+            {
+              "text": "The applicability to a wide range of applications",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Prolog would be a negative example",
+          "runs": [
+            {
+              "text": "Prolog would be a negative example",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Well-definedness",
+          "runs": [
+            {
+              "text": "Well-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "definedness",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "The completeness and precision of the language’s official definition",
+          "runs": [
+            {
+              "text": "The completeness and precision of the language’s official definition",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Ruby existed for many years without a standard definition",
+          "runs": [
+            {
+              "text": "Ruby existed for many years without a standard definition",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 19,
+    "title": "Language Design Trade-Offs",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-19",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Language Design Trade-Offs",
+          "runs": [
+            {
+              "text": "Language Design Trade-Offs",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Reliability vs. cost of execution",
+          "runs": [
+            {
+              "text": "Reliability vs. cost of execution",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Example: Java demands all references to array elements be checked for proper indexing, which leads to increased execution costs",
+          "runs": [
+            {
+              "text": "Example: Java demands all references to array elements be checked for proper indexing, which leads to increased execution costs",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "",
+          "runs": []
+        },
+        {
+          "text": "Readability vs. writability",
+          "runs": [
+            {
+              "text": "Readability vs. writability",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Example: APL provides many powerful operators (and a large number of new symbols), allowing complex computations to be written in a compact program but at the cost of poor readability",
+          "runs": [
+            {
+              "text": "Example: APL provides many powerful operators (and a large number of new symbols), allowing complex computations to be written in a compact program but at the cost of poor",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": " ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "readability",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "",
+          "runs": []
+        },
+        {
+          "text": "Writability (flexibility) vs. reliability",
+          "runs": [
+            {
+              "text": "Writability (flexibility) vs. reliability",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Example: C/C++ pointers are powerful and very flexible but can lead to hard-to-find bugs (lower reliability)",
+          "runs": [
+            {
+              "text": "Example: C/C++ pointers are powerful and very flexible but can lead to hard-to-find bugs (lower reliability)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 20,
+    "title": "Language Categories",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-20",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Language Categories",
+          "runs": [
+            {
+              "text": "Language Categories",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Imperative",
+          "runs": [
+            {
+              "text": "Imperative",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Central features are variables, assignment statements, and iteration",
+          "runs": [
+            {
+              "text": "Central features are variables, assignment statements, and iteration",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Includes languages that support object-oriented programming",
+          "runs": [
+            {
+              "text": "Includes languages that support object-oriented programming",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Includes scripting languages",
+          "runs": [
+            {
+              "text": "Includes scripting languages",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Includes visual languages",
+          "runs": [
+            {
+              "text": "Includes visual languages",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Examples: C, Java, Python, JavaScript, Ruby, C#, C++",
+          "runs": [
+            {
+              "text": "Examples: ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "C",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": ", ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "Java",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": ", ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "Python",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": ", ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "JavaScript",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": ", ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "Ruby",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": ", ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "C#",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": ", ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "C++",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Functional",
+          "runs": [
+            {
+              "text": "Functional",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Main means of making computations is by applying functions to given parameters",
+          "runs": [
+            {
+              "text": "Main means of making computations is by applying functions to given parameters",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Recursion is naturally functional and tends to be used more than iterative loop constructs",
+          "runs": [
+            {
+              "text": "Recursion is naturally functional and tends to be used more than iterative loop constructs",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 15.0
+            }
+          ]
+        },
+        {
+          "text": "Examples: LISP, Scheme",
+          "runs": [
+            {
+              "text": "Examples: LISP, ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "Scheme",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Logic",
+          "runs": [
+            {
+              "text": "Logic",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Rule-based (rules are specified in no particular order)",
+          "runs": [
+            {
+              "text": "Rule-based (rules are specified in no particular order)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "Example: Prolog",
+          "runs": [
+            {
+              "text": "Example: ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            },
+            {
+              "text": "Prolog",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 18.0
+            }
+          ]
+        },
+        {
+          "text": "",
+          "runs": []
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 21,
+    "title": "Influences on Language Design",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-21",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Influences on Language Design",
+          "runs": [
+            {
+              "text": "Influences on Language Design",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Computer Architecture",
+          "runs": [
+            {
+              "text": "Computer Architecture",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Most languages are developed around the prevalent computer architecture, known as the von Neumann architecture",
+          "runs": [
+            {
+              "text": "Most languages are developed around the prevalent computer architecture, known as the ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "von Neumann",
+              "bold": null,
+              "italic": true,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": " architecture",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Programming Methodologies",
+          "runs": [
+            {
+              "text": "Programming Methodologies",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "New software development methodologies (e.g., object-oriented software development) led to new programming paradigms and by extension, new programming languages",
+          "runs": [
+            {
+              "text": "New software development methodologies (e.g., object-oriented software development) led to new programming paradigms and by extension, new programming languages",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 22,
+    "title": "Programming Methodologies Influences",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-22",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Programming Methodologies Influences",
+          "runs": [
+            {
+              "text": "Programming Methodologies Influences",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 32.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1950s and early 1960s: Simple applications; efficient use of compute time and memory a major concern",
+          "runs": [
+            {
+              "text": "1950s and early 1960s: Simple applications; efficient use of compute time and memory a major concern",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Late 1960s: People efficiency became major concern: readability, writability more important",
+          "runs": [
+            {
+              "text": "Late 1960s: People efficiency became major concern: readability, writability more important",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "structured programming",
+          "runs": [
+            {
+              "text": "structured programming",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "top-down design and step-wise refinement",
+          "runs": [
+            {
+              "text": "top-down design and step-wise refinement",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Late 1970s: Process-oriented to data-oriented",
+          "runs": [
+            {
+              "text": "Late 1970s: Process-oriented to data-oriented",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Increasing importance of data abstraction",
+          "runs": [
+            {
+              "text": "Increasing importance of data abstraction",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Middle 1980s: Object-oriented programming",
+          "runs": [
+            {
+              "text": "Middle 1980s: Object-oriented programming",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Data abstraction + inheritance + polymorphism",
+          "runs": [
+            {
+              "text": "Data abstraction + inheritance + polymorphism",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 23,
+    "title": "Computer Architecture Influence",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-23",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Computer Architecture Influence",
+          "runs": [
+            {
+              "text": "Computer Architecture Influence",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Well-known computer architecture: Von Neumann ",
+          "runs": [
+            {
+              "text": "Well-known computer architecture: Von Neumann ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Data and programs stored in memory",
+          "runs": [
+            {
+              "text": "Data and programs stored in memory",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Memory is separate from CPU",
+          "runs": [
+            {
+              "text": "Memory is separate from CPU",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Instructions and data are piped from memory to CPU",
+          "runs": [
+            {
+              "text": "Instructions and data are piped from memory to CPU",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "",
+          "runs": []
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 24,
+    "title": "The von Neumann Architecture",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-24",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "The von Neumann Architecture",
+          "runs": [
+            {
+              "text": "The von Neumann Architecture",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [
+      {
+        "alt_text": ""
+      }
+    ]
+  },
+  {
+    "slide_number": 25,
+    "title": "The von Neumann Architecture",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-25",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "The von Neumann Architecture",
+          "runs": [
+            {
+              "text": "The von Neumann Architecture",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Fetch-execute cycle (on a von Neumann architecture computer)",
+          "runs": [
+            {
+              "text": "Fetch-execute cycle (on a von Neumann architecture computer)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "",
+          "runs": []
+        },
+        {
+          "text": "initialize the program counter",
+          "runs": [
+            {
+              "text": "initialize the program counter",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "repeat forever",
+          "runs": [
+            {
+              "text": "repeat",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 20.0
+            },
+            {
+              "text": " forever",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "\tfetch the instruction pointed at by the counter",
+          "runs": [
+            {
+              "text": "\tfetch the instruction pointed at by the counter",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "\tincrement the counter",
+          "runs": [
+            {
+              "text": "\tincrement the counter",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "\tdecode the instruction",
+          "runs": [
+            {
+              "text": "\tdecode the instruction",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "\texecute the instruction (might change counter)",
+          "runs": [
+            {
+              "text": "\texecute the instruction (might change counter)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "end repeat",
+          "runs": [
+            {
+              "text": "end repeat",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 20.0
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 26,
+    "title": "Computer Architecture Influence",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-26",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Computer Architecture Influence",
+          "runs": [
+            {
+              "text": "Computer Architecture Influence",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Imperative languages are dominant at least in part because of the use of von Neumann computers",
+          "runs": [
+            {
+              "text": "Imperative languages are dominant at least in part because of the use of von Neumann computers",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Variables model memory cells",
+          "runs": [
+            {
+              "text": "Variables model memory cells",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 22.0
+            }
+          ]
+        },
+        {
+          "text": "Assignment statements model storing data in memory cells",
+          "runs": [
+            {
+              "text": "Assignment statements model storing data in memory cells",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 22.0
+            }
+          ]
+        },
+        {
+          "text": "Iteration fits the fetch-execute cycle more naturally than recursion",
+          "runs": [
+            {
+              "text": "Iteration fits the fetch-execute cycle more naturally than recursion",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 22.0
+            }
+          ]
+        },
+        {
+          "text": "",
+          "runs": []
+        },
+        {
+          "text": "",
+          "runs": []
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 27,
+    "title": "Language Implementation Methods",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-27",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Language Implementation Methods",
+          "runs": [
+            {
+              "text": "Language Implementation Methods",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Compilation",
+          "runs": [
+            {
+              "text": "Compilation",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Programs are translated into machine language; includes Just-in-Time (JIT) systems",
+          "runs": [
+            {
+              "text": "Programs are translated into machine language; includes Just-in-Time (JIT) systems",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Use: Lage commercial applications",
+          "runs": [
+            {
+              "text": "Use: Lage commercial applications",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "",
+          "runs": []
+        },
+        {
+          "text": "Pure Interpretation",
+          "runs": [
+            {
+              "text": "Pure Interpretation",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Programs are executed line-by-line by another program known as an interpreter",
+          "runs": [
+            {
+              "text": "Programs are executed line-by-line by another program known as an interpreter",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Use: Small programs or when efficiency is not an issue",
+          "runs": [
+            {
+              "text": "Use: Small programs or when efficiency is not an issue",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "",
+          "runs": []
+        },
+        {
+          "text": "Hybrid Implementation Systems",
+          "runs": [
+            {
+              "text": "Hybrid Implementation Systems",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "A compromise between compilers and pure interpreters",
+          "runs": [
+            {
+              "text": "A compromise between compilers and pure interpreters",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Use: Small and medium systems when efficiency is not the first concern",
+          "runs": [
+            {
+              "text": "Use: Small and medium systems when efficiency is not the first concern",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 28,
+    "title": "Layered View of Computer",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-28",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Layered View of Computer",
+          "runs": [
+            {
+              "text": "Layered View of Computer",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "",
+          "runs": []
+        }
+      ],
+      [
+        {
+          "text": "",
+          "runs": []
+        }
+      ],
+      [
+        {
+          "text": "The operating system and language implementation are layered over machine interface of a computer",
+          "runs": [
+            {
+              "text": "The operating system and language implementation are layered over machine interface of a computer",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [
+      {
+        "alt_text": "f01-02"
+      }
+    ]
+  },
+  {
+    "slide_number": 29,
+    "title": "Compilation",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-29",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Compilation",
+          "runs": [
+            {
+              "text": "Compilation",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Translate high-level program (source language) into another (object) language (bytecode or machine code)",
+          "runs": [
+            {
+              "text": "Translate high-level program (source language) into another (object) language (bytecode or machine code)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Slow translation, fast execution",
+          "runs": [
+            {
+              "text": "Slow translation, fast execution",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Compilation process has several phases: ",
+          "runs": [
+            {
+              "text": "Compilation process has several phases: ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "lexical analysis: converts characters in the source program into lexical units (e.g., == is a single lexical unit)",
+          "runs": [
+            {
+              "text": "lexical analysis: converts characters in the source program into lexical units (e.g., ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "==",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": 20.0
+            },
+            {
+              "text": " is a single lexical unit)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "syntax analysis: transforms lexical units into parse trees which represent the syntactic structure of program\u000b(e.g., 2*3+4 becomes tree with + at root)",
+          "runs": [
+            {
+              "text": "syntax analysis: transforms lexical units into ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "parse trees ",
+              "bold": null,
+              "italic": true,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "which represent the syntactic structure of program",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "(e.g., 2*3+4 becomes tree with + at root)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "semantic analysis: perform semantic checks (e.g., type checking), generate intermediate code",
+          "runs": [
+            {
+              "text": "semantic analysis: perform semantic checks (e.g., type checking), generate intermediate code",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "code generation: optimization may be performed, object code is generated",
+          "runs": [
+            {
+              "text": "code generation: optimization may be performed, object code is generated",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "",
+          "runs": []
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 30,
+    "title": "The Compilation Process",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-30",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "The Compilation Process",
+          "runs": [
+            {
+              "text": "The Compilation Process",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [
+      {
+        "alt_text": ""
+      }
+    ]
+  },
+  {
+    "slide_number": 31,
+    "title": "Additional Compilation Terminologies",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-31",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Additional Compilation Terminologies",
+          "runs": [
+            {
+              "text": "Additional Compilation Terminologies",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 32.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Load module (executable image): all user and system code together",
+          "runs": [
+            {
+              "text": "Load module",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": " (executable image): all user and system code together",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Linking: the process of creating a load module",
+          "runs": [
+            {
+              "text": "Linking",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": ": the process of creating a load module",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Often in C/C++ must specify which libraries to link:\u000b  gcc test.c –o test -lm # m is math library",
+          "runs": [
+            {
+              "text": "Often in C/C++ must specify which libraries to link:",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "  ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "gcc",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": " ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "test.c",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": " –o test -",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "lm",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": " ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "# m is math library",
+              "bold": null,
+              "italic": true,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Loading: the operating system process of copying a load module into memory, possibly modifying addresses",
+          "runs": [
+            {
+              "text": "Loading",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": ": the operating system process of copying a load module into memory, possibly modifying addresses",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 32,
+    "title": "Von Neumann Bottleneck",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-32",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Von Neumann Bottleneck",
+          "runs": [
+            {
+              "text": "Von Neumann Bottleneck",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Connection speed between a computer’s memory and its processor determines the speed of a computer",
+          "runs": [
+            {
+              "text": "Connection speed between a computer’s memory and its processor determines the speed of a computer",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Program instructions often can be executed much faster than the speed of the connection; the connection speed thus results in a bottleneck",
+          "runs": [
+            {
+              "text": "Program instructions often can be executed much faster than the speed of the connection; the connection speed thus results in a ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "bottleneck",
+              "bold": null,
+              "italic": true,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Known as the von Neumann bottleneck; it is the primary limiting factor in the speed of computers",
+          "runs": [
+            {
+              "text": "Known as the ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "von Neumann bottleneck",
+              "bold": null,
+              "italic": true,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "; it is the primary limiting factor in the speed of computers",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "",
+          "runs": []
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 33,
+    "title": "Pure Interpretation",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-33",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Pure Interpretation",
+          "runs": [
+            {
+              "text": "Pure Interpretation",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "No translation",
+          "runs": [
+            {
+              "text": "No translation",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Easier implementation of programs (run-time errors can easily and immediately be displayed)",
+          "runs": [
+            {
+              "text": "Easier implementation of programs (run-time errors can easily and immediately be displayed)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Slower execution (10 to 100 times slower than compiled programs)",
+          "runs": [
+            {
+              "text": "Slower execution (10 to 100 times slower than compiled programs)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Often requires more space",
+          "runs": [
+            {
+              "text": "Often requires more space",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Now rare for traditional high-level languages",
+          "runs": [
+            {
+              "text": "Now rare for traditional high-level languages",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "In the early Web years, was a significant drawback with some Web scripting languages (e.g., JavaScript, PHP)",
+          "runs": [
+            {
+              "text": "In the early Web years, was a significant drawback with some Web scripting languages (e.g., JavaScript, PHP)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 34,
+    "title": "Pure Interpretation Process",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-34",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Pure Interpretation Process",
+          "runs": [
+            {
+              "text": "Pure Interpretation Process",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [
+      {
+        "alt_text": ""
+      }
+    ]
+  },
+  {
+    "slide_number": 35,
+    "title": "Hybrid Implementation Systems",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-35",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Hybrid Implementation Systems",
+          "runs": [
+            {
+              "text": "Hybrid Implementation Systems",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "A compromise between compilers and pure interpreters",
+          "runs": [
+            {
+              "text": "A compromise between compilers and pure interpreters",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "A high-level language program is translated to an intermediate language that allows easy interpretation",
+          "runs": [
+            {
+              "text": "A high-level language program is translated to an intermediate language that allows easy interpretation",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Faster than pure interpretation",
+          "runs": [
+            {
+              "text": "Faster than pure interpretation",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Examples",
+          "runs": [
+            {
+              "text": "Examples",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Perl programs are partially compiled to detect errors before interpretation",
+          "runs": [
+            {
+              "text": "Perl programs are partially compiled to detect errors before interpretation",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Many implementations of Java were hybrid; the intermediate form, byte code, provides portability to any machine that has a byte code interpreter and a run-time system (together, these are called Java Virtual Machine)",
+          "runs": [
+            {
+              "text": "Many implementations of Java were hybrid; the intermediate form, ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "byte code",
+              "bold": null,
+              "italic": true,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": ", provides portability to any machine that has a byte code interpreter and a run-time system (together, these are called ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "Java Virtual Machine",
+              "bold": null,
+              "italic": true,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": ")",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "",
+          "runs": []
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 36,
+    "title": "Hybrid Implementation Process",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-36",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Hybrid Implementation Process",
+          "runs": [
+            {
+              "text": "Hybrid Implementation Process",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [
+      {
+        "alt_text": ""
+      }
+    ]
+  },
+  {
+    "slide_number": 37,
+    "title": "Just-in-Time (JIT) Implementation Systems",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-37",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Just-in-Time (JIT) Implementation Systems",
+          "runs": [
+            {
+              "text": "Just-in-Time (JIT) Implementation Systems",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 32.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Typically, an implementation using JIT initially translates a program to bytecode (Ahead-of-Time compilation) like a hybrid implementation",
+          "runs": [
+            {
+              "text": "Typically, an implementation using JIT initially translates a program to bytecode (Ahead-of-Time compilation) like a hybrid implementation",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Then, as the program is executing (via a bytecode interpreter), the implementation might run a JIT compiler to convert portions of the bytecode into machine code to improve execution speed",
+          "runs": [
+            {
+              "text": "Then, as the program is executing (via a bytecode interpreter), the implementation might run a JIT compiler to convert portions ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            },
+            {
+              "text": "of the bytecode ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            },
+            {
+              "text": "into machine code to improve execution speed",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Machine code is cached for subsequent use",
+          "runs": [
+            {
+              "text": "Machine code is cached for subsequent use",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "JIT systems are widely used for Java programs",
+          "runs": [
+            {
+              "text": "JIT systems are widely used for Java programs",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": ".NET languages are implemented with a JIT system",
+          "runs": [
+            {
+              "text": ".NET languages are implemented with a JIT system",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "In essence, JIT systems are delayed compilers",
+          "runs": [
+            {
+              "text": "In essence, JIT systems are delayed compilers",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 38,
+    "title": "Preprocessors",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-38",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Preprocessors",
+          "runs": [
+            {
+              "text": "Preprocessors",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Preprocessor modifies a program before it is compiled",
+          "runs": [
+            {
+              "text": "Preprocessor ",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "modifies a program before it is compiled",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Example: #include \"myFile.h\" in C is replaced with contents of file myFile.h",
+          "runs": [
+            {
+              "text": "Example",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": ": ",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "#include \"",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": null
+            },
+            {
+              "text": "myFile.h",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": null
+            },
+            {
+              "text": "\"",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": null
+            },
+            {
+              "text": " in C is replaced with contents of file ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": "myFile.h",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Macros are templates that are replaced with code; can be done by preprocessor",
+          "runs": [
+            {
+              "text": "Macros",
+              "bold": true,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            },
+            {
+              "text": " are templates that are replaced with code; can be done by preprocessor",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "Example: ",
+          "runs": [
+            {
+              "text": "Example: ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "",
+          "runs": []
+        }
+      ],
+      [
+        {
+          "text": "#define max(A, B) ((A) > (B) ? (A) : (B))",
+          "runs": [
+            {
+              "text": "#define max(A, B) ((A) > (B) ? (A) : (B))",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "// ...",
+          "runs": [
+            {
+              "text": "// ...",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "x = max(2 * y, z / 1.73); // becomes...",
+          "runs": [
+            {
+              "text": "x = max(2 * y, z / 1.73);",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": null
+            },
+            {
+              "text": " // becomes...",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "x = ((2 * y) > (z / 1.73) ? ",
+          "runs": [
+            {
+              "text": "x = ((2 * y) > (z / 1.73) ? ",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": null
+            }
+          ]
+        },
+        {
+          "text": "     (2 * y) : (z / 1.73);",
+          "runs": [
+            {
+              "text": "     (2 * y) : (z / 1.73);",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Courier New",
+              "font_size": null
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 39,
+    "title": "Programming Environments",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-39",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Programming Environments",
+          "runs": [
+            {
+              "text": "Programming Environments",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "A collection of tools used in software development",
+          "runs": [
+            {
+              "text": "A collection of tools used in software development",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "UNIX/Linux command line (CLI)",
+          "runs": [
+            {
+              "text": "UNIX/Linux command line (CLI)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "simple editor for writing code",
+          "runs": [
+            {
+              "text": "simple editor for writing code",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "enter commands to compile and run program",
+          "runs": [
+            {
+              "text": "enter commands to compile and run program",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "write \"makefile\" for telling the \"linker\" what object and library files to use to create an \"executable\"",
+          "runs": [
+            {
+              "text": "write \"",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "makefile",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            },
+            {
+              "text": "\" for telling the \"linker\" what object and library files to use to create an \"executable\"",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Integrated development environments (IDEs)",
+          "runs": [
+            {
+              "text": "Integrated development environments (IDEs)",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Typically perform syntax analysis as code is entered and immediately identify syntax (compile) errors",
+          "runs": [
+            {
+              "text": "Typically perform syntax analysis as code is entered and immediately identify syntax (compile) errors",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 16.0
+            }
+          ]
+        },
+        {
+          "text": "Simplify the compilation/execution process; often a single Run button",
+          "runs": [
+            {
+              "text": "Simplify the compilation/execution process; often a single Run button",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 16.0
+            }
+          ]
+        },
+        {
+          "text": "",
+          "runs": []
+        }
+      ]
+    ],
+    "images": []
+  },
+  {
+    "slide_number": 40,
+    "title": "Summary",
+    "text_blocks": [
+      [
+        {
+          "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+          "runs": [
+            {
+              "text": "Copyright © 2009 Addison-Wesley. All rights reserved.",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "1-40",
+          "runs": [
+            {
+              "text": "1-",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": "Arial",
+              "font_size": 10.0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Summary",
+          "runs": [
+            {
+              "text": "Summary",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": null
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "The study of programming languages is valuable for a number of reasons:",
+          "runs": [
+            {
+              "text": "The study of programming languages is valuable for a number of reasons:",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Increase our capacity to use different constructs",
+          "runs": [
+            {
+              "text": "Increase our capacity to use different constructs",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Enable us to choose languages more intelligently",
+          "runs": [
+            {
+              "text": "Enable us to choose languages more intelligently",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Makes learning new languages easier",
+          "runs": [
+            {
+              "text": "Makes learning new languages easier",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Most important criteria for evaluating programming languages include:",
+          "runs": [
+            {
+              "text": "Most important criteria for evaluating programming languages include:",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "Readability, writability, reliability, cost",
+          "runs": [
+            {
+              "text": "Readability, writability, reliability, cost",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 20.0
+            }
+          ]
+        },
+        {
+          "text": "Major influences on language design have been machine architecture and software development methodologies",
+          "runs": [
+            {
+              "text": "Major influences on language design have been machine architecture and software development methodologies",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        },
+        {
+          "text": "The major methods of implementing programming languages are: compilation, pure interpretation, and hybrid implementation",
+          "runs": [
+            {
+              "text": "The major methods of implementing programming languages are: compilation, pure interpretation, and hybrid implementation",
+              "bold": null,
+              "italic": null,
+              "underline": null,
+              "font_name": null,
+              "font_size": 24.0
+            }
+          ]
+        }
+      ]
+    ],
+    "images": []
+  }
+]
