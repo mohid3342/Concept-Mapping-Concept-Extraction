@@ -1,6 +1,39 @@
 from pptx import Presentation
 import json
 from pptx.enum.shapes import MSO_SHAPE_TYPE
+import base64
+from openai import OpenAI
+
+
+client = OpenAI(
+    api_key="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"
+)
+
+def image_to_base64(image):
+    return base64.b64encode(image.blob).decode("utf-8")
+
+
+def describe_image_with_ai(image_base64):
+    response = client.responses.create(
+        model="gpt-4o",
+        input=[
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "input_text",
+                        "text": "Describe this image for a college lecture slide in 25 words"
+                    },
+                    {
+                        "type": "input_image",
+                        "image_url": f"data:image/jpeg;base64,{image_base64}",
+                        "detail": "low"
+                    }
+                ]
+            }
+        ]
+    )
+    return response.output_text
 
 
 def get_alt_text(shape):
@@ -28,7 +61,6 @@ def extract_pptx_data(file_path):
             "text_blocks": [],
             "images": []
         }
-
         for shape in slide.shapes:
             # Text shapes
             if shape.has_text_frame:
@@ -55,21 +87,31 @@ def extract_pptx_data(file_path):
             if shape.shape_type == MSO_SHAPE_TYPE.PICTURE:  # Picture
                 try:
                     alt_text = get_alt_text(shape)
-                    slide_info["images"].append({
-                        "alt_text": alt_text
-                    })
-                except Exception:
-                    slide_info["images"].append({
-                        "alt_text": "No alt text"
-                    })
+                    image_base64 = image_to_base64(shape.image)
+                    ai_description = describe_image_with_ai(image_base64)
 
+                    slide_info["images"].append({
+                        "alt_text": alt_text,
+                        "ai_description": ai_description
+                    })
+                except Exception as e:
+                    slide_info["images"].append({
+                        "alt_text": alt_text if alt_text else "No alt text",
+                        "ai_description": None,
+                        "error": str(e)
+                    })
+        if slide.has_notes_slide:
+            notes_text = slide.notes_slide.notes_text_frame.text
+            slide_info["notes"] = notes_text
         ppt_data.append(slide_info)
+        
+ 
 
     return ppt_data
 
 # -----------------------------
 # Example usage
-file_path = "TPL_Chapter_1.pptx"
+file_path = "test.pptx"
 ppt_structure = extract_pptx_data(file_path)
 
 # Save to a JSON file
