@@ -3,6 +3,7 @@ from pptx.enum.shapes import MSO_SHAPE_TYPE
 
 pptx_path = r"C:\Users\Mohid\OneDrive\Documents\GitHub\Concept-Mapping-Concept-Extraction\PythonPPTX_Testing\test.pptx"
 txt_path = r"C:\Users\Mohid\OneDrive\Documents\GitHub\Concept-Mapping-Concept-Extraction\PythonPPTX_Testing\extractionTest.txt"
+pptx_path2 = r"C:\Users\Mohid\OneDrive\Documents\GitHub\MohidCode\MainCode\Code\Python\VSCode\COSC 481\TPL_Chapter_1.pptx"
 
 prs = Presentation(pptx_path)
 
