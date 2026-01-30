@@ -1,0 +1,1169 @@
+[
+  {
+    "slide_number": 1,
+    "title": "Lecture 0",
+    "text_blocks": [
+      [
+        {
+          "text": "CS 0007: Introduction to Java",
+          "runs": [
+            {
+              "text": "CS 0007: Introduction to Java",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 44
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Lecture 0",
+          "runs": [
+            {
+              "text": "Lecture 0",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 44
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Nathan Ong",
+          "runs": [
+            {
+              "text": "Nathan Ong",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "University of Pittsburgh",
+          "runs": [
+            {
+              "text": "University of Pittsburgh",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 2,
+    "title": "This is a test",
+    "text_blocks": [
+      [
+        {
+          "text": "This is a test",
+          "runs": [
+            {
+              "text": "This is a test",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 44
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "• This is a test for bold",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " This is a test for bold",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "• This is a test for italics",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " This is a test for italics",
+              "bold": false,
+              "italic": true,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "• This is a test for bold and italics",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " This is a test for bold and italics",
+              "bold": true,
+              "italic": true,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "• This is a test for underline",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " This is a test for underline",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "• This is a test for bold and underline",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " This is a test for bold and underline",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "• This is a test for italics and underline",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " This is a test for italics and underline",
+              "bold": false,
+              "italic": true,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "• This is a test for bold, Italics, and Underline",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " This is a test for bold, Italics, and Underline",
+              "bold": true,
+              "italic": true,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 3,
+    "title": "Introductions",
+    "text_blocks": [
+      [
+        {
+          "text": "Introductions",
+          "runs": [
+            {
+              "text": "Introductions",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 44
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "• Name",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " Name",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "• Year",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " Year",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "• Why this course?",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " Why this course?",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "• Random fact",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " Random fact",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 4,
+    "title": "A Note for CS and Other",
+    "text_blocks": [
+      [
+        {
+          "text": "A Note for CS and Other",
+          "runs": [
+            {
+              "text": "A Note for CS and Other",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 40
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Computing Majors",
+          "runs": [
+            {
+              "text": "Computing Majors",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 40
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "CS 0401 (Intermediate Programming in Java) is",
+          "runs": [
+            {
+              "text": "CS 0401 (Intermediate Programming in Java) is ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "more likely to be suitable for you.  This course",
+          "runs": [
+            {
+              "text": "more likely to be suitable for you.  This course ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "is geared towards non-majors.  Talk to your",
+          "runs": [
+            {
+              "text": "is geared towards non-majors.  Talk to your ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "academic advisor.",
+          "runs": [
+            {
+              "text": "academic advisor.",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 5,
+    "title": "Syllabus",
+    "text_blocks": [
+      [
+        {
+          "text": "Syllabus",
+          "runs": [
+            {
+              "text": "Syllabus",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 44
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "• Can be found on Courseweb",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " Can be found on Courseweb",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 6,
+    "title": "Teaching Style",
+    "text_blocks": [
+      [
+        {
+          "text": "Teaching Style",
+          "runs": [
+            {
+              "text": "Teaching Style",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 44
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "• Because this course is geared towards non-",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " Because this course is geared towards non-",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "majors, the course will be taught in a human-",
+          "runs": [
+            {
+              "text": "majors, the course will be taught in a human-",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "language inspired manner.",
+          "runs": [
+            {
+              "text": "language inspired manner.",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "• However, students should recognize that",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " However, students should recognize that ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "human languages are fluid and bendable.",
+          "runs": [
+            {
+              "text": "human languages are fluid and bendable.  ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "Programming languages (like Java) are not.",
+          "runs": [
+            {
+              "text": "Programming languages (like Java) are not.",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 7,
+    "title": "The Programming Mindset",
+    "text_blocks": [
+      [
+        {
+          "text": "The Programming Mindset",
+          "runs": [
+            {
+              "text": "The Programming Mindset",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 44
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Imagine talking to your (possibly imaginary)",
+          "runs": [
+            {
+              "text": "Imagine talking to your (possibly imaginary) ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "non-cooperative little brother who claims to",
+          "runs": [
+            {
+              "text": "non-cooperative little brother who claims to ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "be following directions, but taking them as",
+          "runs": [
+            {
+              "text": "be following directions, but taking them as ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "literally as possible.",
+          "runs": [
+            {
+              "text": "literally as possible.",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "This is what it is like programming a computer.",
+          "runs": [
+            {
+              "text": "This is what it is like programming a computer.",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 8,
+    "title": "Regarding Collaboration",
+    "text_blocks": [
+      [
+        {
+          "text": "Regarding Collaboration",
+          "runs": [
+            {
+              "text": "Regarding Collaboration",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 44
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "• I encourage all of you to collaborate and learn",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " I encourage all of you to collaborate and learn ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "from each other by doing the homework.",
+          "runs": [
+            {
+              "text": "from each other by doing the homework.",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "• The only requirement: please write at the top",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " The only requirement: please write at the top ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "of your homework who you collaborated with.",
+          "runs": [
+            {
+              "text": "of your homework who you collaborated with.  ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "Leaving this information out while continuing",
+          "runs": [
+            {
+              "text": "Leaving this information out while continuing ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "to collaborate constitutes cheating and is NOT",
+          "runs": [
+            {
+              "text": "to collaborate constitutes cheating and is NOT ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "PERMITTED.",
+          "runs": [
+            {
+              "text": "PERMITTED.",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 9,
+    "title": "Regarding Plagiarism",
+    "text_blocks": [
+      [
+        {
+          "text": "Regarding Plagiarism",
+          "runs": [
+            {
+              "text": "Regarding Plagiarism",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 44
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "• Plagiarism, which includes copying or using",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " Plagiarism, which includes copying or using ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "code from any source without my approval, is",
+          "runs": [
+            {
+              "text": "code from any source without my approval, is ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "strictly prohibited.",
+          "runs": [
+            {
+              "text": "strictly prohibited.",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "• First offense: A zero for the graded item",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " First offense: A zero for the graded item",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "• Second offense: A zero for the course",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " Second offense: A zero for the course",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 10,
+    "title": "Academic Integrity",
+    "text_blocks": [
+      [
+        {
+          "text": "Academic Integrity",
+          "runs": [
+            {
+              "text": "Academic Integrity",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 44
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "• The University’s official Academic Integrity",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " The University’s official Academic Integrity ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Policy can be found here:",
+          "runs": [
+            {
+              "text": "Policy can be found here: ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "http://www.as.pitt.edu/fac/policies/academic",
+          "runs": [
+            {
+              "text": "http://www.as.pitt.edu/fac/policies/academic",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "-integrity",
+          "runs": [
+            {
+              "text": "-integrity",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 11,
+    "title": "Header",
+    "text_blocks": [
+      [
+        {
+          "text": "Header",
+          "runs": [
+            {
+              "text": "Header",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 44
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "• For those of you that don't check your e-mail",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " For those of you that don't check your e-mail ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "on a daily basis, you should start.",
+          "runs": [
+            {
+              "text": "on a daily basis, you should start.",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        },
+        {
+          "text": "• Questions should be asked as soon as you",
+          "runs": [
+            {
+              "text": "•",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "ArialMT",
+              "font_size": 32
+            },
+            {
+              "text": " Questions should be asked as soon as you ",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "have one.",
+          "runs": [
+            {
+              "text": "have one.",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 12,
+    "title": "Questions?",
+    "text_blocks": [
+      [
+        {
+          "text": "Questions?",
+          "runs": [
+            {
+              "text": "Questions?",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 44
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "slide_number": 1,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 2,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 3,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 4,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 5,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 6,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 7,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 8,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 9,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 10,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 11,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 12,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 13,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 14,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 15,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 16,
+    "title": null,
+    "text_blocks": [],
+    "images": [
+      {
+        "alt_text": "",
+        "ai_description": "Scatter plot illustrating the relationship between two variables, labeled \"Occurrence word 1\" and \"Occurrence word 2,\" showing a distribution of blue data points."
+      },
+      {
+        "alt_text": "",
+        "ai_description": "Scatter plot showing clustering iterations. Points are grouped by color within Voronoi regions. X marks cluster centroids. Axes represent occurrence of two words."
+      }
+    ],
+    "notes": null
+  },
+  {
+    "slide_number": 17,
+    "title": null,
+    "text_blocks": [],
+    "images": [
+      {
+        "alt_text": "",
+        "ai_description": "Scatter plot depicting clustering iteration, with data points in distinct clusters. Arrows highlight significant points within divided regions. Axes labeled 'Occurrence word 1' and 'Occurrence word 2'."
+      }
+    ],
+    "notes": null
+  },
+  {
+    "slide_number": 18,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 19,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 20,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 21,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 22,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 23,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 24,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 25,
+    "title": null,
+    "text_blocks": [],
+    "images": [],
+    "notes": null
+  }
+]
