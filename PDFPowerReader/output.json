@@ -1,0 +1,109 @@
+[
+  {
+    "slide_number": 1,
+    "title": "Hello, World!",
+    "text_blocks": [
+      [
+        {
+          "text": "Hello, World!",
+          "runs": [
+            {
+              "text": "Hello, World!",
+              "bold": false,
+              "italic": false,
+              "underline": null,
+              "font_name": "Calibri",
+              "font_size": 44.04
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "python-pptx was here!",
+          "runs": [
+            {
+              "text": "python-pptx was here!",
+              "bold": false,
+              "italic": false,
+              "underline": null,
+              "font_name": "Calibri",
+              "font_size": 32.04
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 2,
+    "title": "Hello 2 World",
+    "text_blocks": [
+      [
+        {
+          "text": "Hello 2 World",
+          "runs": [
+            {
+              "text": "Hello 2 World",
+              "bold": false,
+              "italic": false,
+              "underline": null,
+              "font_name": "Calibri",
+              "font_size": 44.04
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 3,
+    "title": "Hello 3 World",
+    "text_blocks": [
+      [
+        {
+          "text": "Hello 3 World",
+          "runs": [
+            {
+              "text": "Hello 3 World",
+              "bold": false,
+              "italic": false,
+              "underline": null,
+              "font_name": "Calibri",
+              "font_size": 44.04
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 4,
+    "title": "This is a test for bold pdf",
+    "text_blocks": [
+      [
+        {
+          "text": "This is a test for bold pdf",
+          "runs": [
+            {
+              "text": "This is a test for bold pdf",
+              "bold": false,
+              "italic": false,
+              "underline": null,
+              "font_name": "Calibri-Bold",
+              "font_size": 32.06
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  }
+]
