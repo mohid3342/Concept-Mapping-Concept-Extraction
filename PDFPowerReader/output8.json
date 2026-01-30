@@ -1,0 +1,119 @@
+[
+  {
+    "slide_number": 1,
+    "title": "Hello, World!",
+    "text_blocks": [
+      [
+        {
+          "text": "Hello, World!",
+          "runs": [
+            {
+              "text": "Hello, World!",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 44
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "python-pptx was here!",
+          "runs": [
+            {
+              "text": "python-pptx was here!",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  },
+  {
+    "slide_number": 2,
+    "title": "Hello 2 World",
+    "text_blocks": [
+      [
+        {
+          "text": "Hello 2 World",
+          "runs": [
+            {
+              "text": "Hello 2 World",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 44
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [
+      {
+        "alt_text": "Scenic autumn park with lake, trees, and a distant building under a blue sky.",
+        "ai_description": "A serene landscape featuring a calm lake reflecting autumn trees, with a distant historic building under a clear, blue sky at dusk. Perfect for natural beauty discussions."
+      }
+    ],
+    "notes": null
+  },
+  {
+    "slide_number": 3,
+    "title": "Hello 3 World",
+    "text_blocks": [
+      [
+        {
+          "text": "Hello 3 World",
+          "runs": [
+            {
+              "text": "Hello 3 World",
+              "bold": false,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 44
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [
+      {
+        "alt_text": "Brown paper package tied with red string and blank white gift tag.",
+        "ai_description": "A brown paper package tied with red string, featuring a blank white gift tag. Simple and classic presentation suitable for presenting ideas or concepts."
+      }
+    ],
+    "notes": null
+  },
+  {
+    "slide_number": 4,
+    "title": "This is a test for bold pdf",
+    "text_blocks": [
+      [
+        {
+          "text": "This is a test for bold pdf",
+          "runs": [
+            {
+              "text": "This is a test for bold pdf",
+              "bold": true,
+              "italic": false,
+              "underline": false,
+              "font_name": "Calibri",
+              "font_size": 32
+            }
+          ]
+        }
+      ]
+    ],
+    "images": [],
+    "notes": null
+  }
+]
