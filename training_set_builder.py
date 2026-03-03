@@ -3,9 +3,9 @@ import json
 
 JSON_DIR = "json_output"
 LABELED_DIR = "labeled_plus_fd"
-OUTPUT_FILE = "concept_extraction_training_openai_per_slide.jsonl"
+OUTPUT_FILE = "concept_extraction_training_per_slide.jsonl"
 
-system_prompt = (
+instruction_text = (
     "You extract core computer science concepts from lecture JSON data. "
     "Return only a newline-separated list of unique concepts. "
     "Do not include explanations or extra text. If there are not core important concepts, return 'None'."
@@ -117,27 +117,16 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
                         seen.add(c)
                         unique_concepts.append(c)
 
-                # Determine assistant response
+                # Determine output
                 if unique_concepts:
-                    assistant_content = "\n".join(unique_concepts)
+                    output_content = "\n".join(unique_concepts)
                 else:
-                    assistant_content = "None"
+                    output_content = "None"
 
                 training_example = {
-                    "messages": [
-                        {
-                            "role": "system",
-                            "content": system_prompt
-                        },
-                        {
-                            "role": "user",
-                            "content": json.dumps(slides_batch, ensure_ascii=False)
-                        },
-                        {
-                            "role": "assistant",
-                            "content": assistant_content
-                        }
-                    ]
+                    "instruction": instruction_text,
+                    "input": json.dumps(slides_batch, ensure_ascii=False),
+                    "output": output_content
                 }
 
                 out.write(json.dumps(training_example, ensure_ascii=False) + "\n")
@@ -145,4 +134,4 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
             num_batches = (len(lecture_json) + 1) // 2
             print(f"Added: {course}/{lec_name} ({num_batches} batches from {len(lecture_json)} slides)")
 
-print("\nOpenAI training file complete (per-slide).")
+print("\nTraining file complete (per-slide).")
