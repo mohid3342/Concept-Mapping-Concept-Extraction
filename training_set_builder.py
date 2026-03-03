@@ -3,42 +3,64 @@ import json
 
 JSON_DIR = "json_output"
 LABELED_DIR = "labeled_plus_fd"
-OUTPUT_FILE = "concept_extraction_training.jsonl"
+OUTPUT_FILE = "concept_extraction_training_openai_per_slide.jsonl"
 
-instruction_text = (
-    "Extract all core computer science concepts from the following lecture JSON. "
+system_prompt = (
+    "You extract core computer science concepts from lecture JSON data. "
     "Return only a newline-separated list of unique concepts. "
-    "Do not explain anything."
+    "Do not include explanations or extra text. If there are not core important concepts, return 'None'."
 )
 
-def extract_concepts_from_jsonl(jsonl_path):
-    concepts = []
-
+def extract_concepts_per_slide(jsonl_path, lecture_json):
+    """Returns a dict mapping slide_number -> list of concepts"""
+    slide_concepts = {}
+    
+    # First, extract all concepts from the labeled file
+    all_concepts = []
+    
     with open(jsonl_path, "r", encoding="utf-8") as f:
         for line in f:
             data = json.loads(line)
             text = data["text"]
             labels = data.get("label", [])
-
+            
             for start, end, label_type in labels:
                 if label_type != "Concept":
                     continue
-
+                
                 concept_text = text[start:end]
                 concept_text = concept_text.replace("\n", " ").strip()
-
+                
                 if concept_text:
-                    concepts.append(concept_text)
-
-    # remove duplicates while preserving order
+                    all_concepts.append(concept_text)
+    
+    # Remove duplicates while preserving order
     seen = set()
-    unique = []
-    for c in concepts:
+    unique_concepts = []
+    for c in all_concepts:
         if c not in seen:
             seen.add(c)
-            unique.append(c)
-
-    return unique
+            unique_concepts.append(c)
+    
+    # Now match concepts to slides by checking if the concept text appears in the slide
+    for slide in lecture_json:
+        slide_num = slide.get("slide_number")
+        if slide_num is None:
+            continue
+        
+        # Build the slide text from all text blocks
+        slide_text = ""
+        for text_block_list in slide.get("text_blocks", []):
+            for text_block in text_block_list:
+                slide_text += text_block.get("text", "")
+        
+        # Check which concepts appear in this slide
+        slide_concepts[slide_num] = []
+        for concept in unique_concepts:
+            if concept in slide_text:
+                slide_concepts[slide_num].append(concept)
+    
+    return slide_concepts
 
 
 with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
@@ -63,25 +85,64 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
                 print(f"Skipping {course}/{lec_name} (no labeled file)")
                 continue
 
-            # Load powerpoint JSON
+            print(f"\nProcessing {course}/{lec_name}")
+
+            # Load lecture JSON
             with open(json_path, "r", encoding="utf-8") as jf:
                 lecture_json = json.load(jf)
 
-            # Extract concepts
-            concepts = extract_concepts_from_jsonl(labeled_path)
+            # Extract labeled concepts per slide
+            slide_concepts = extract_concepts_per_slide(labeled_path, lecture_json)
+            
+            print(f"  Found concepts in {len(slide_concepts)} slides")
 
-            if not concepts:
-                print(f"Skipping {course}/{lec_name} (no concepts found)")
-                continue
+            # Process slides in pairs
+            for i in range(0, len(lecture_json), 2):
+                # Get current slide and next slide (if exists)
+                slides_batch = lecture_json[i:i+2]
+                
+                # Collect all concepts from both slides
+                all_concepts = []
+                for slide in slides_batch:
+                    slide_num = slide.get("slide_number")
+                    if slide_num is not None:
+                        concepts = slide_concepts.get(slide_num, [])
+                        all_concepts.extend(concepts)
+                
+                # Remove duplicates while preserving order
+                seen = set()
+                unique_concepts = []
+                for c in all_concepts:
+                    if c not in seen:
+                        seen.add(c)
+                        unique_concepts.append(c)
 
-            training_example = {
-                "instruction": instruction_text,
-                "input": lecture_json,
-                "output": "\n".join(concepts)
-            }
+                # Determine assistant response
+                if unique_concepts:
+                    assistant_content = "\n".join(unique_concepts)
+                else:
+                    assistant_content = "None"
 
-            out.write(json.dumps(training_example, ensure_ascii=False) + "\n")
+                training_example = {
+                    "messages": [
+                        {
+                            "role": "system",
+                            "content": system_prompt
+                        },
+                        {
+                            "role": "user",
+                            "content": json.dumps(slides_batch, ensure_ascii=False)
+                        },
+                        {
+                            "role": "assistant",
+                            "content": assistant_content
+                        }
+                    ]
+                }
 
-            print(f"Added: {course}/{lec_name}")
+                out.write(json.dumps(training_example, ensure_ascii=False) + "\n")
 
-print("Training file complete.")
+            num_batches = (len(lecture_json) + 1) // 2
+            print(f"Added: {course}/{lec_name} ({num_batches} batches from {len(lecture_json)} slides)")
+
+print("\nOpenAI training file complete (per-slide).")
