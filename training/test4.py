@@ -69,24 +69,22 @@ lecture_data = [
 # -----------------------
 
 def extract_slide_text(slide):
-	text_list = []
+    text_list = []
 
-```
-if "title" in slide and slide["title"]:
-    text_list.append(slide["title"])
+    if "title" in slide and slide["title"]:
+        text_list.append(slide["title"])
 
-for block_group in slide.get("text_blocks", []):
-    for block in block_group:
-        if "text" in block and block["text"].strip():
-            text_list.append(block["text"].strip())
+    for block_group in slide.get("text_blocks", []):
+        for block in block_group:
+            if "text" in block and block["text"].strip():
+                text_list.append(block["text"].strip())
 
-return " ".join(text_list)
-```
+    return " ".join(text_list)
 
 clean_slides = []
 
 for slide in lecture_data:
-clean_slides.append({
+    clean_slides.append({
 "slide": slide["slide_number"],
 "text": extract_slide_text(slide)
 })
@@ -125,12 +123,10 @@ all_concepts = set()
 # -----------------------
 
 for chunk in chunks:
-
-```
-lecture_json = json.dumps(chunk, separators=(",", ":"))
+    lecture_json = json.dumps(chunk, separators=(",", ":"))
 
 prompt = f"""### Instruction:
-```
+
 
 {instruction}
 
@@ -144,7 +140,7 @@ prompt = f"""### Instruction:
 
 """
 
-```
+
 inputs = tokenizer(
     prompt,
     return_tensors="pt",
@@ -170,7 +166,7 @@ for concept in response.split("\n"):
     concept = concept.strip()
     if concept:
         all_concepts.add(concept)
-```
+
 
 # -----------------------
 
@@ -181,5 +177,5 @@ for concept in response.split("\n"):
 print("\n=== FINAL CONCEPT LIST ===\n")
 
 for concept in sorted(all_concepts):
-print(concept)
+    print(concept)
 
