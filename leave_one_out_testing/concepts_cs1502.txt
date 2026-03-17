@@ -1,0 +1,355 @@
+# symbol
+0σ∗
+3cnf-formula
+3sat
+3sat ≤p clique
+5-tuple
+<reset>
+accept
+accept state
+accept states
+accepting computation history
+accepts all strings over σ
+adfa
+alba
+algorithm
+allbutonetm
+alphabet
+alphabet σ
+anfa
+arex
+assignment statement
+assumption
+asymptotic analysis
+asymptotic upper bound
+atm
+b
+big union
+bijection
+blank symbol
+boolean algebra
+boolean formula
+boolean logic
+boolean operators
+boolean value
+boolean variable
+bottom string
+breadth-first search
+brute-force algorithm
+c
+canonical form
+cartesian product
+church-turing thesis
+clause
+clique
+closed under complement
+closed under intersection
+closed under operation
+closed under union
+closure
+closure under concatenation
+closure under star
+closure under union
+cnf
+cnf-formula
+combining turing machines
+compiler
+complement
+composite number
+composites
+computable function
+computation history
+computation model
+computation of a turing machine
+computation tree
+computational tree
+concatenation
+concatenation operation
+conditional statement
+conjunctive normal form
+contradiction
+control
+converting a dfa to a gnfa
+cook-levin theorem
+coprime integers
+copy
+correspondence
+countable
+d
+decidability
+decidable
+decidable language
+decider
+decimal representation
+denominator
+deterministic finite automaton
+deterministic single-tape turing machine
+deterministic turing machine
+dfa
+diagonalization
+dictionary order
+directed graph
+directed path
+domain
+domino
+e
+e(r)
+edfa
+elba
+empty language
+empty set
+empty string
+encoding
+encoding of a machine
+eqdfa
+eqtm
+equal
+equivalence of nfas and dfas
+equivalent dfa
+etm
+euclidean algorithm
+even number
+exclusive or
+exponential bounds
+exponential time
+f
+finite automata
+finite automaton
+finite automaton and algorithm
+finite state machine
+finite-state automaton
+for statement
+function
+functions
+gcd
+generalized nondeterministic finite automaton
+generally accepted fact
+gnfa
+gnfa to regular expression
+graph theory
+greatest common divisor
+halt
+halt tm
+halting problem
+hamiltonian path
+hampath
+helper machine
+human computer
+implication
+input alphabet
+input string
+instance of mpcp
+instance of pcp
+integer
+integers
+integral root
+intersection
+irrational number
+irreducible fraction
+is_0n1n
+k-clique
+k-tuple
+l
+language
+language a
+language b
+language of a method
+language of a tm
+language of a turing machine
+language recognized
+lba
+left-hand end of the tape
+left-most square
+lemma 1.55
+length at least p
+length of a string
+limitation of finite automaton
+linear bounded automaton
+literal
+loop
+loops indefinitely
+mapping reducibility
+mark the left-most symbol
+match
+membership
+model of computation
+moving the tape head back
+mpcp
+multitape turing machine
+n
+natural numbers
+nb
+nfa
+no contradiction
+non-accept state
+non-regular language
+nondeterministic finite automata
+nondeterministic finite automaton
+nondeterministic polynomial time
+nondeterministic polynomial time turing machine
+nondeterministic turing machine
+notprime
+np
+np-complete
+np-completeness
+ntime(t(n))
+ntm
+numerator
+odd integer
+odd number
+one dfa
+one tm
+one-to-one
+onto
+ordered pair
+p
+p(q)
+palindrome
+path
+pb
+pcp
+pigeonhole principle
+polynomial bounds
+polynomial time
+polynomial time algorithm
+polynomial time computable function
+polynomial time reducibility
+polynomial time reduction
+polynomial time turing machine
+positive rational numbers
+post correspondence problem
+powerset
+predicate
+primitive steps of human computation
+problem
+problem size
+proof
+proof by construction
+proof by contradiction
+proof of membership
+proper subset
+psubsetdfa
+public
+pumped
+pumping lemma
+pumping length
+q
+q0
+qaccept
+qreject
+r
+r+
+range
+rational number
+real number
+real numbers
+recognizable
+recognizable language
+reducibility
+reducible
+reducible to
+reducing number of states of gnfa
+reduction
+reduction via computation histories
+reduction via computation history
+regular expression
+regular expression to nfa
+regular language
+regular languages
+regular operations
+reject
+reject state
+relatively prime
+relprime
+return
+returns
+reverse of a string
+right direction
+rk
+rsa
+rsa algorithm
+rule of thumb
+running time
+s = xyz
+sat
+sat ≤p 3sat
+sequence
+set
+set of all languages
+set of all regular languages
+set of all strings over σ
+set of real numbers
+set of states
+set of turing machines
+set theory
+shorthand notation
+shortlex order
+single-tape turing machine
+small-o notation
+smaller than
+stage 1
+star
+star operation
+start state
+state
+state diagram
+state transition table
+state-of-mind
+static
+string
+string representation
+substring
+sweep left to right across the tape
+t
+tape
+tape alphabet
+tape head
+theorem 1.39
+theorem 1.54
+theorem 3.16
+theorem 4.1
+theorem 4.2
+theory of computation
+time complexity
+time complexity class
+time(t(n))
+tm
+top string
+tracing a turing machine
+transition
+transition function
+transition function of a turing machine
+truth table
+tuple
+turing machine
+turing-decidable
+turing-recognizable
+u
+uncountable
+undecidability
+undecidable
+undecidable language
+undirected graph
+union
+union operation
+universal turing machine
+unrecognizable language
+variable
+vertex cover
+void
+w has an equal number of 0s and 1s
+w has more number of 0s than number of 1s
+working tape
+x
+yields
+z
+zig-zag across the tape
+|y| > 0
+γ
+δ
+ε
+σ
+σ∗
+∅
+≤m
+≤p
