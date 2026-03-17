@@ -1,0 +1,6 @@
+python3.11 -m venv name_env
+source name_env/bin/activate
+pip install --upgrade pip
+# install packages, libraries, etc
+pip install torch transformers datasets peft accelerate trl bitsandbytes
+
