@@ -172,10 +172,30 @@ for test_course in all_courses:
         for example in test_examples:
             f.write(json.dumps(example, ensure_ascii=False) + "\n")
     
+    # ============= ADD NEW CODE HERE =============
+    # Extract unique concepts from test examples
+    unique_concepts = set()
+    for example in test_examples:
+        output = example.get("output", "")
+        if output.strip() != "None":
+            concepts = output.split("\n")
+            for concept in concepts:
+                concept = concept.strip()
+                if concept:
+                    unique_concepts.add(concept)
+    
+    # Write concepts to txt file
+    concepts_file = os.path.join(OUTPUT_DIR, f"concepts_{test_course}.txt")
+    with open(concepts_file, "w", encoding="utf-8") as f:
+        for concept in sorted(unique_concepts):
+            f.write(concept + "\n")
+    # ============= END NEW CODE =============
+    
     print(f"\nFold complete:")
     print(f"  Training examples: {len(train_examples)} (from {len(train_courses)} courses)")
     print(f"  Test examples: {len(test_examples)} (from {test_course})")
-    print(f"  Saved to: {train_file} and {test_file}")
+    print(f"  Unique concepts: {len(unique_concepts)}")
+    print(f"  Saved to: {train_file}, {test_file}, and {concepts_file}")
 
 print(f"\n{'='*60}")
 print(f"Leave-one-out cross-validation complete!")
