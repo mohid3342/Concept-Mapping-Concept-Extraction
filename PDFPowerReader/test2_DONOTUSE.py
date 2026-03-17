@@ -7,7 +7,7 @@ from openai import OpenAI
 # OpenAI Client (hard-coded key)
 # ======================================================
 client = OpenAI(
-    api_key="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"
+    #api_key=
 )
 
 # ======================================================
