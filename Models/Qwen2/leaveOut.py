@@ -39,5 +39,5 @@ def generate_jsonl_files(input_file):
         print(f'Generated {train_file} and {test_file}')
 
 # Example usage
-input_file = 'lectures.jsonl'  # Replace with your JSONL file path
+input_file = 'C:\Users\Mohid\OneDrive\Documents\GitHub\Concept-Mapping-Concept-Extraction\Models\Qwen2\concept_extraction_training.jsonl'  # Replace with your JSONL file path
 generate_jsonl_files(input_file)
