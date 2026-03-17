@@ -1,0 +1,1 @@
+python example_chat_completion.py --ckpt_dir llama-2-7b --tokenizer_path llama-2-7b/tokenizer.model
