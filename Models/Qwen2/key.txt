@@ -1,0 +1,11 @@
+Train.py - trained on concept_extraction_training.jsonl
+Train2.py - trained on training_per_slide.jsonl
+Train3.py - trains on loo_splits (121 lectures leave one out) (single mode picks only 1 out of the 121)
+Train4.py - trains on loo_splites(all 121)
+
+
+Test.py - tests lecture cs007 lecture 1 slides 4-6
+Test2.py - tests lecture cs007 lecture 2 slides 10-13
+Test3.py -tests whole lecture cs007 using train.py (concept_extraction_training.jsonl)
+Test4.py - tests whole lecture cs007 using train2.py (training_per_slide.jsonl)
+Test5.py - tests whole lecture cs007 using train2.py and lecture 2
