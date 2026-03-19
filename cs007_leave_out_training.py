@@ -224,10 +224,12 @@ print("Extracting concepts from test data...\n")
 all_concepts = set()
 
 for idx, example in enumerate(test_examples):
-    print(f"Processing test example {idx + 1}/{len(test_examples)}...")
+    #print(f"Processing test example {idx + 1}/{len(test_examples)}...")
     
     # Extract the input data (lecture slides)
-    lecture_json = json.dumps(example["input"], separators=(",", ":"))
+    # Parse the input string to get the actual data
+    lecture_data = json.loads(example["input"])
+    lecture_json = json.dumps(lecture_data, separators=(",", ":"))
     instruction = example["instruction"]
 
     prompt = f"""### Instruction:
@@ -236,6 +238,7 @@ for idx, example in enumerate(test_examples):
 ### BEGIN_LECTURE_JSON
 {lecture_json}
 ### END_LECTURE_JSON
+
 
 ### Output:
 """
