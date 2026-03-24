@@ -6,10 +6,27 @@ LABELED_DIR = "labeled_plus_fd"
 OUTPUT_DIR = "leave_one_out_testing"
 
 instruction_text = (
-    "You extract core computer science concepts from lecture JSON data. "
-    "Return only a newline-separated list of unique concepts. "
-    "Do not include explanations or extra text. If there are not core important concepts, return 'None'."
+    "Extract core computer science concepts from the lecture content.\n\n"
+    "Output Requirements:\n"
+    "- Return ONLY a valid JSON array\n"
+    "- Each item must be a short concept (1–3 words)\n"
+    "- Use lowercase\n"
+    "- No duplicates\n"
+    "- No explanations, sentences, or extra text\n"
+    "- If no concepts exist, return: []\n\n"
+    "Examples:\n"
+    '["binary tree", "hash table", "recursion"]\n'
+    "[]\n"
 )
+def slides_to_text(slides_batch):
+    text = ""
+    for slide in slides_batch:
+        text += f"Slide {slide.get('slide_number', '')}:\n"
+        for text_block_list in slide.get("text_blocks", []):
+            for text_block in text_block_list:
+                text += text_block.get("text", "") + "\n"
+        text += "\n"
+    return text.strip()
 
 def extract_concepts_per_slide(jsonl_path, lecture_json):
     """Returns a dict mapping slide_number -> list of concepts"""
@@ -29,7 +46,7 @@ def extract_concepts_per_slide(jsonl_path, lecture_json):
                     continue
                 
                 concept_text = text[start:end]
-                concept_text = concept_text.replace("\n", " ").strip()
+                concept_text = concept_text.replace("\n", " ").strip().lower()
                 
                 if concept_text:
                     all_concepts.append(concept_text)
@@ -115,13 +132,12 @@ def process_course(course):
 
             # Determine output
             if unique_concepts:
-                output_content = "\n".join(unique_concepts)
+                output_content = json.dumps([c.lower() for c in unique_concepts], ensure_ascii=False)
             else:
-                output_content = "None"
-
+                output_content = "[]"
             training_example = {
                 "instruction": instruction_text,
-                "input": json.dumps(slides_batch, ensure_ascii=False),
+                "input": slides_to_text(slides_batch),
                 "output": output_content
             }
 
@@ -177,12 +193,17 @@ for test_course in all_courses:
     unique_concepts = set()
     for example in test_examples:
         output = example.get("output", "")
-        if output.strip() != "None":
-            concepts = output.split("\n")
-            for concept in concepts:
-                concept = concept.strip()
-                if concept:
-                    unique_concepts.add(concept.lower())
+        try:
+            concepts = json.loads(output)
+            if not isinstance(concepts, list):
+                concepts = []
+        except:
+            concepts = []
+
+        for concept in concepts:
+            concept = concept.strip().lower()
+        if concept:
+            unique_concepts.add(concept)
     
     # Write concepts to txt file
     concepts_file = os.path.join(OUTPUT_DIR, f"concepts_{test_course}.txt")
