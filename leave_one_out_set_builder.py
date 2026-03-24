@@ -202,8 +202,8 @@ for test_course in all_courses:
 
         for concept in concepts:
             concept = concept.strip().lower()
-        if concept:
-            unique_concepts.add(concept)
+            if concept:
+                unique_concepts.add(concept)
     
     # Write concepts to txt file
     concepts_file = os.path.join(OUTPUT_DIR, f"concepts_{test_course}.txt")
