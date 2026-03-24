@@ -1,188 +1,99 @@
 1-d parity
-1988 internet worm
 2 phase locking
 2-d parity
 __sync_synchronize()
 _sync_synchronize()
 abort
 abort()
-access control matrix
 access matrix
-access rights
-accounting information
 acl
-acquire
 actuator
-address generation
 address space
 address translation
 administer
 aes
-afs
 aging
-aging replacement algorithm
 antivirus software
-api
-application programming interface
-arrival time
 asynchronous transfers
 atomic
 atomic instruction
-atomic swap
 attributes
 authentication
 avail
 availability
-average response time
 average rotation delay
-average rotational delay
-back-end processes
-background threads
-backing up an instruction
 banker's algorithm
-barriers
-base and limit registers
 base register
 binary semaphore
 bitmap
 block count
 block index
-block size
-blocked transfers
 blocking
-blowfish
 boot block
 bounded buffer
-bounded buffer problem
 broadcast
 buffer capacity
-buffer in kernel
-buffer overflow
-buffering
 busy waiting
-c programming
-c-look
-c-scan
 cache
-caching
 capability
 child process
 ciphertext
 circular wait
 circular-array buffer
 clock
-clock algorithm
 clock interrupt
-clone
 condition variable
-condition variables
 confidentiality
 consumer
-consumer arrives
-consumer enters
-consumer leaves
 context switch
-contiguous allocation
-convoy effect
-cooperating processes
 copy-and-write
 copy-on-write
-counting semaphore
 covert channel
-cpu burst
-cpu burst estimation
-cpu burst time
-cpu registers
-cpu scheduling
-cpu scheduling information
-cpu utilization
-cpu-bound process
-cpu-i/o cycle
 critical region
 critical section
-cryptographically protected capability
 cryptography
 current
 customer process
 cv
 cylinder
-data encryption standard
 data rate
-database queries
 deadlock
-deadlock avoidance
 deadlock avoidance algorithms
-deadlock detection
-deadlock detection algorithm
 deadlock detection algorithms
 deadlock prevention
 decision mode
 decryption
 dedicated devices
-defense in depth
 degree of multiprogramming
 delete
-demand paging
-denial of service
 des
-device driver
 device drivers
-device independence
-device-independent os software
 digital signature
-dining philosophers
-direct memory access
-direct pointers
 directory
-directory contents
 directory entry
-directory structure
-directory traversal
 dirty bit
 disk
 disk arm scheduling
 disk block
-disk block size
-disk drive
 disk log
 disk request
-disk scheduling algorithms
 disk sector
 disk write
 dispatch latency
 dispatcher
 distance
 distance string
-dma
 domain
-doneread
-donewrite
 double indirect
 down
 down()
-dram
 dropper
-dual-bus
-dual-mode operation
-duplicate block in free list
-duplicate block in two files
-dynamic frequency
 dynamic priorities
 eat
-ecc
-effective access time
-effective disk access time
 elevator algorithm
-embedded systems
 encryption
-enter
-enterread
-enterwrite
-error correcting code
 error detection
-error handling
 exception
-exception handler
 exec
 exec()
 execute
@@ -190,70 +101,35 @@ execution time
 exit
 exit()
 exponential averaging
-exponentially decreasing coefficients
 ext3
 ext4
-fairness
-fat
-fat-12
-fat-16
-fat-32
-fcfs
-feedback scheduling
 ffs
-fifo
 file
-file allocation table
-file block cache
-file copying
-file linking
 file locking
-file metadata
 file name
 file system
 file system dump
 finished
 first block
-first come first serve
-first-come, first-served scheduling
-first-come-first served
-first-in, first out
-fixed memory partitions
-fixed size entries
-flash file system
 flash sector
 fork
 fork()
 frame number
-free block tracking
 free list
 free pool
 front-end processes
-futex
-gdb
 global allocation
 group
 hardware interrupt
-hardware tlb replacement
 hashing
 head
 head position
-hierarchical directory system
 hold
 hold and wait
-http
 i-node
 i-node number
-i/o
-i/o buffer
-i/o buffering
-i/o status information
-i/o wait
-idt
-idt table initialization
 indefinite blocking
 index block
-indexed allocation
 init
 init process
 inode
@@ -261,93 +137,47 @@ input queue
 insert
 integrity
 internal fragmentation
-internet worm
 interpreted code
 interrupt
 interrupt controller
 interrupt descriptor table
-interrupt handler
 interrupt service procedure
 interrupt vector
 interrupt vector table
 interrupt-driven
-interrupt-driven i/o
 interrupts
 inverted page table
 inverted page tables
-isr
-java api
-java virtual machine
 journal
-journaling file system
-jvm
 kernel
 kernel mode
 kill
 kill()
-l3 cache
-large page table problem
 last reader
-least recently used
-lfs
 library call
 link
 link count
 linked allocation
 linked list
 linked list of free blocks
-linux kernel
-live migration
-local allocation
 locality of reference
 lock
 lock()
-locked pages
-locking pages in memory
-log-structured file system
 logical address
-logical memory
 logical page number
-logical to physical mapping
-login spoofing
 long jobs
 lookup
-lru
-lru stack algorithm
-lsfs
 main file system
-main memory
 max
-max file size
-maximum seek time
-memory access time
 memory barrier
 memory hierarchy
 memory management
-memory management goal
-memory management unit
-memory manager
 memory partition
-memory protection
-memory-management information
-memory-mapped i/o
-mesa semantics
-message passing
 microkernel
-microkernel system structure
-minimum memory allocation to a process
-mirrored copies
 mmu
-mmu context
-mode bit
 modify
-monoalphabetic substitution
 multi-level page tables
 multi-thread programs
-multilevel feedback queue scheduling
-multilevel feedback scheduling
-multilevel queue scheduling
-multiple feedback queues
 multiple resource instances
 multiprogramming
 mutex
@@ -355,33 +185,21 @@ mutex lock
 mutual exclusion
 naming problem
 next
-nextcount
 nfu
 no preemption
 nohup
 non-resource deadlocks
 non-volatile storage
-nonpreemptive
-not frequently used
-not recently used
-nru
-ntfs
-offline password cracking
-offset calculation
 on-disk journal
 one-time pad
 one-way function
 one-way hash function
-online password cracking
 open files
 operating system
-operating system kernel
 opt
 optimal
-optimal page replacement algorithm
 orphan process
 os
-ostrich algorithm
 others
 out-of-order writes
 owner
@@ -389,32 +207,21 @@ p
 page fault
 page fault rate
 page frame
-page frame number
 page number
 page offset
 page replacement
 page replacement algorithm
-page sharing
 page size
 page table
-page table base register
 page table entry
-page table length register
 page table lookup
 paging
 parameters in registers
 parent process
 parity
-parity rotates through disks
-partition table
-password cracking
-password guessing
 password hash
-password stealing
 payload
-pcb
 permissions
-pgp
 physical address
 physical memory
 physical page
@@ -423,98 +230,43 @@ pid
 plaintext
 platter
 polling
-posix
-posix api
-preamble
 preemptive
-preemptive scheduling
-pretty good privacy
 priorities
 priority
 priority inheritance
 priority inversion
 priority queue
-priority scheduling
 private key
 process
-process control block
-process creation
-process id
 process identifier
-process lifecycle
-process state
-process states
-process synchronization
 process table
-process termination
-processor utilization
 producer
-producer arrives
-producer enters
-producer leaves
-producers consumers problem
 producers-consumers problem
-program counter
-programmed i/o
 protection
-protection bits
 protection domain
-protection information
 protection matrix
 protection mode
-ptbr
-pte
-ptlr
 public key
-public-key cryptography
 quantum
-quantum length
-raid
-raid 0
-raid 1
-raid 4
-raid 5
 ram
-random access
-ransomware
-re-entrant locks
 read
-read down, write up
-read up, write down
 read/write head
-reader process
-readers & writers
-readers-writers problem
 ready queue
-ready state
-redundant array of inexpensive disks
 reference bit
-reference monitor
 reference string
 reference trace
-referenced bit
-release
 rendezvous
-rendezvous pattern
 resource allocation graph
 resource ordering
 resource trajectory
 resource trajectory graph
-response time
 rom
 rotation time
-rotational delay
-round robin
-round-robin scheduling
 rr
 running state
 salt
 sandboxing
-scan
-scheduling algorithms
 second chance
-second chance page replacement
-secret-key encryption
 sector
 security
 seek distance
@@ -522,131 +274,67 @@ seek time
 segmentation fault
 selection function
 semaphore
-semaphore data structure
 semaphore queue
-semaphore-based solution
-semaphores
-separate i/o space
-separating policy and mechanism
 sequence of events
 service time
-sha-2
 shared bounded buffer
 shared circular-array buffer
 shared memory
-shared variables
 short-term scheduler
-shortest process next
-shortest seek time first
-shortest-job-first scheduling
 side-channel attack
 signal
 signed code
 simple averaging
-simple integrity principle
-simple security property
 single indirect
-single-bus
 size
-sjf
-sleep
-sleepy barbers
-sleepy barbers problem
-smp
 snapshot
-social engineering
 software interrupt
-software tlb replacement
-solution using mutex and condition variables
 spare sectors
 spindle
 spinlock
 spinning
-spn
 spooling
-sram
-sstf
 stack algorithm
-standard c library
-starting address
 starvation
-steganography
-stripe
-striped with parity
 swap
 swapping
-switching context
 swtch
 symmetric-key encryption
 syscall
-syscall implementation
-syscall table
 system call
 system call implementation function
 system call interface
-system call parameter passing
-system programming
 system state
-system-call table
-system-oriented criteria
 task control block
 task_struct
-templating
-test & set
 test&set
-testandset
 thrashing
 thread
-thread synchronization
 throughput
 time quantum
 time slice
 timestamps
-tlb
-tlb exception
-tlb lookup time
-tlb replacement
 tracing
 track
-traditional unix system structure
 transfer time
 translation lookaside buffer
 trap
 trap door
 triple indirect
 trojan horse
-trusted computing base
-turn off interrupts
-turnaround time
-two-level directory system
 two-level page tables
-two-level paging
 ui
-ui thread
-uniform naming
-unix directory tree
-unix fast file system
-unix file system
-unix password hash
 unlock
 unlock()
 up
 up()
 user
-user interface
-user interface elements
 user land
 user mode
 user space
 user-land file system
-user-level i/o software
-user-oriented criteria
 v
-valid bit
-victim page
-vigenere cipher
 virtual address
-virtual and physical addresses
 virtual machine
 virtual machine manager
 virtual memory
@@ -654,23 +342,14 @@ virtual page
 virtual page number
 virtualization
 virus
-vm
-vmm
 w(k,t)
 wait
 wait()
 waiting
 wakeup
 want
-wear leveling
-web server
-win32 api
 worker process
 working set
-working set page replacement algorithm
 worm
 write
-writer process
-wsclock
-xscale
 xv6

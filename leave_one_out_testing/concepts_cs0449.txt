@@ -6,7 +6,6 @@
 16.16 number
 200
 301
-32-bit ip address
 404
 a << n == a * 2n
 a >> n == a / 2n, ish
@@ -16,24 +15,18 @@ accept
 access control
 access control bits
 access mode
-access time
 activation frame
 address
 address space
-address translation
-addresses
-addresses and pointers
 addrinfo
 allocated block
 alu
-amplitude modulation
+amat
 and
 anonymization
-application binary interface
 archive
 argument
 arguments
-arithmetic shift
 array
 array bounds
 array bounds checking
@@ -45,9 +38,6 @@ assembly conventions
 assembly language
 associativity
 asynchronous
-at&t syntax
-attack string
-augmented operators
 base
 base address
 base-10
@@ -62,42 +52,25 @@ biased representation
 big-endian
 binary
 binary digit
-binary encoding
 binary file
 binary operators
 binary point
-binary representation
-binary scientific notation
 binary shorthand
 binary tree
 bind
 bit
-bit manipulation
-bit shifting
 bitfield
-bitwise and
-bitwise operations
 block address
 block size
-block started by symbol
-boolean type
 bridge
 buddy allocator
 buffer
-buffer over-read
 buffer overflow
 byte
 byte-addressable memory
 bytecode
-c abi
-c application binary interface
-c memory model
-c programming
-c standard io
-c systems programming language
 c11
 c18
-c89
 c99
 cache
 cache block
@@ -107,9 +80,6 @@ cache miss
 cache row
 cache size
 cache slot
-caching
-callee
-callee stack frame
 caller activation frame
 calling conventions
 calloc
@@ -123,22 +93,16 @@ cgi
 cgi-bin
 child process
 chunked
-cisc
 client process
 close
-cloudbleed
 cmp
 coalescing
 code
-code segment
 coercion
 cold miss
-common gateway interface
 compilation
 compiled language
 compiler
-complex addressing
-complex instruction set computer
 compulsory miss
 concurrency
 conflict miss
@@ -146,49 +110,32 @@ connect
 connected descriptor
 connection
 constants
-content-length
-content-type
 context
 context switch
 control flow
 copyleft
 copyright law
 cpu
-cpu cache
-cpu math logic
-cpu scheduling
-cpu state
-cpu/memory gap
-creation date
 critical section
 cylinder
 data
-data representation
 data segment
 datagram
 deadlock
 debugger
-debugging tools
 decimal
 defragmentation
-delete
 dereference operator
 derivative
 destination
 device driver
-device drivers
 direct-mapped cache
 directories
 directory
 disassembly
 disk
 disk block
-displacement
-distributed storage
-divide-by-zero error
-dns
 domain name
-dotted decimal notation
 double
 double word
 double-precision
@@ -198,24 +145,16 @@ dup2
 dword
 dynamic content
 dynamic linking
-dynamic ram
-dynamic random access memory
-echo client
 echo server
 elf
-encapsulation
 entry point
 enum
 eof
 ephemeral port
-ethernet segment
-eurosys
 exec
 executable
 executable format
-executable machine instructions
 execution environment
-execve
 exit
 exit code
 explicit list allocator
@@ -223,32 +162,24 @@ exploit code
 exponent
 exponent field
 expressions
-external libraries
 fairness
 fall through
 false fragmentation
 fgets
 file
-file data
 file descriptor
-file metadata
 file name
 file path
 file position
 file size
 file system
 file systems
-file table
 filtering
 first-fit
 float
-floating point
 floating-point representation
 fork
 fraction field
-fractional binary
-fractional encoding
-fractional numbers
 fragmentation
 frame
 frame header
@@ -258,10 +189,7 @@ free block
 free list
 freeaddrinfo
 freeform cache
-frequency modulation
 fscanf
-fsf
-full-duplex
 fully associative cache
 function
 function call
@@ -281,10 +209,6 @@ glibc
 global symbol
 global variables
 gnu
-gnu c compiler
-gnu is not unix
-gnu public license
-gpl
 half-precision
 hard disk
 hardware exception
@@ -292,8 +216,6 @@ hardware timer
 head
 header
 heap
-heap allocation
-heartbleed
 hex
 hexadecimal
 hierarchy
@@ -301,38 +223,24 @@ hit rate
 host
 host entry
 hostname
-hotos
+hr
+ht
 http
-http request
-http response
-http/1.0
-http/1.1
 hub
-hypertext transfer protocol
-ieee 754
 if statement
 image/gif
 image/jpeg
 image/png
-index
 index node
 indirection
 init
 initialization
 inode
-instruction qualifiers
-instruction set architecture
 int
-integer types
 inter-process communication
-interactive debugging
 internal fragmentation
 internet protocol
-internet protocol version 4
-internet protocol version 6
-internet worm (1988)
 interpreter
-interprocess communication
 interrupt
 interrupt controller
 interrupt descriptor table
@@ -341,20 +249,10 @@ interrupt table
 interrupt vector table
 inverted page table
 ip
-ip address
-ipc
-ipv4
-ipv6
 isa
-iso c
-jit
-jvm
-k&r style
 kernel
 kernel design
-kernel-bypass
-l1 cache
-l2 cache
+kill
 label
 last accessed
 latency
@@ -368,77 +266,49 @@ linux
 listen
 listening descriptor
 livelock
-load effective address
 loader
-local disk
 local symbol
 local variables
 localhost
 logging
 logical negation
-logical product
-logical shift
-logical sum
 long word
 loopback address
-lsb
-mac address
 machine code
 machine language
 macro
 macro language
-macro substitution
-magic number
 magnetic flux
 magnetic material
 main memory
 malloc
 mb
-mbps
 megabit
 memory
 memory address
-memory allocation
-memory caches
 memory hierarchy
 memory layout
-memory management
-memory referencing bug
-memory wall
-message passing
 metadata
 microkernel
-mime type
-mips
-miss penalty
-modified-fm encoding
 modular arithmetic
 modulus arithmetic
-msb
+mp
 multiplexing
-multitasking os
 mutex
 mutual exclusion
 n-way associative cache
-negation
+nan
 network byte order
-network programming
 new
 next-fit
 nibble
 node
-non-executable code segments
 normalized representation
 normalized scientific notation
 not
 nslookup
 null
-null pointer
-nvram
 nybble
-o_creat
-o_rdonly
-o_trunc
 objdump
 object file
 object file header
@@ -449,14 +319,10 @@ open source
 open_clientfd
 open_listenfd
 operating system
-operating systems
 operators
-options
 or
 orphan process
 os
-os design
-osdi
 overflow
 p
 packet
@@ -473,22 +339,16 @@ partial registers
 path
 persistent memory
 physical address
-physical addressing
 physical memory
 physical page
 pic
 pid
 pie
 platter
-plt
 point-to-point
 pointer
-pointer arithmetic
-pointers
 port
 port number
-posix
-post
 postfix-increment
 preemptive operating system
 preemptive scheduling
@@ -498,34 +358,21 @@ priority
 process
 process id
 process identifier
-process isolation
 process metadata
-process page table
 process-level concurrency
-processes
 processor
-program analysis
 program counter
-pronom
-pronom database
 proprietary hardware
 protocol
 proxy
-public
 put
 quad word
 quantum
-query_string
 race condition
 ram
 random access
-random access memory
-randomized stack offsets
-range of numbers
 read
 read-only data segment
-real numbers
-reduced instruction set computer
 reference operator
 registers
 reliable
@@ -535,7 +382,6 @@ relocation table
 request
 request line
 resource
-resource contention
 response
 response line
 return
@@ -545,12 +391,8 @@ return type
 return value
 returns
 reverse engineering
-rio_writen
-risc
 root process
 router
-run-time loading
-runtime stack
 scanf
 scheduler
 scientific notation
@@ -564,15 +406,11 @@ segmentation fault
 semaphore
 semaphores
 sequential access
-sequential web server
 server process
 service name
 set
-shared libraries
 shared library
-shared memory
 shell
-shift right logical
 sigint
 sign
 sign bit
@@ -584,8 +422,6 @@ signed numbers
 significand
 single-precision
 sizeof
-slab allocator
-smashing string
 snapshot
 sockaddr
 socket
@@ -593,20 +429,16 @@ socket address
 socket address structure
 socket pair
 sockets interface
-software licensing
 software trap
-sosp
 source
 source code
 source file
 spatial locality
 sra
-sram
 srl
 sscanf
 stack
 stack address
-stack allocation
 stack canaries
 stack frame
 stack pointer
@@ -616,8 +448,6 @@ static
 static content
 static data
 static linking
-static random access memory
-statically allocated data
 status code
 status register
 stdio
@@ -635,18 +465,12 @@ struct sockaddr_in
 symbol
 symbol table
 synchronization
-synchronization primitives
 syscall
 system call
 systems
 systems abstractions
-systems design
-systems programming
 tags
 tail
-tape
-tcp
-tcp/ip
 telnet
 temporal locality
 test
@@ -656,34 +480,18 @@ text segment
 text/html
 text/plain
 thread
-thread id
 threading libraries
 threads
-throughput
-tiny web server
-tiobe index
-trace
+tio
 track
 transcoding
-transfer-encoding
-transmission control protocol
 traversal
-two's complement
-two's complement addition
 typedef
-udp
-unicode
-uniform resource identifier
-unikernels
-uninitialized data segment
-universal resource locator
+umin
 unix
-unix system calls
-unreliable datagram protocol
 unsigned integer
 uri
 url
-utf-16
 v
 variable
 variable declaration
@@ -693,11 +501,8 @@ virtual machine
 virtual memory
 virtualization
 void
-wafl
 wait
 way
-web content
-web server
 well-known port
 word
 word size

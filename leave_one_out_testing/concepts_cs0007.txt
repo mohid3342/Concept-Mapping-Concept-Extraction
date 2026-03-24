@@ -1,55 +1,37 @@
-2-d arrays
 api
-application programming interface
 array
-arrayindexoutofboundsexception
-arrays
-ascii
 base case
-body
 boolean
-boolean algebra
 boolean condition
-bufferedreader
 byte
 bytecode
 c
 catch
 caught
 char
-charat
 chars
 child
 class
-class methods
-class name
 class-level
 class-level variable
-class-level variables
 classes
 comment
 commented
 commenting
 comments
-compilation
 compiled
 compiler
 compiling
-components
 concatenation
-conditional logic
 console
 constants
 constructor
 constructors
-data
 division
 double
 else
 else if
 equals()
-equivalence
-escape character
 estimated labor charges
 exception
 exceptions
@@ -61,89 +43,55 @@ factorial
 false
 field
 fields
-filenotfoundexception
-filereader
 final
 finally
 float
 for
 for loop
 function
-function components
 function overloading
-functionname
 functions
 getters
-header
-hello world
 identifiers
 if
-if statement
 if statements
 import
 index
-inheritance
 initialization
 input
-inputstreamreader
 instance
-instance methods
 instance variable
 instance variables
 instances
 instantiate
 int
-integer division
-integers
 inter-class relationships
-internet
-ioexception
-java
 length
-linux
-logical and
-logical not
-logical or
 long
-lowercamelcase
+loops
 main
-math class
 method
-method overloading
 methods
 modular arithmetic
-modular operation
-multi-dimension arrays
 non-static
 null
-numberformatexception
 object
 object class
 object-dependent variables
-object-oriented
-object-oriented programming
 objects
 oop
-operating system
-optimization
-order of operators
 output
 overloaded constructor
 overloading
-overloading constructors
 override
-overriding
-ownership
 parameter
 parameters
 parent
-parentheses
 pass-by-reference
 pass-by-value
 passing-in
 pi
 primitive
-primitive values
 print
 println
 private
@@ -153,13 +101,10 @@ protected
 public
 ram
 recursion
-recursive
-reserved java keywords
 return
 return type
 returns
 runtime
-scanner
 scope
 semicolon
 service quote
@@ -167,9 +112,7 @@ setters
 short
 static
 static fields
-static methods
 string
-strings
 sub
 subclass
 subclasses
@@ -177,9 +120,6 @@ substring
 subtype
 super
 superclass
-superclasses
-switch-case
-system.in
 this
 throw
 thrown
@@ -187,17 +127,10 @@ true
 truncates
 try
 type
-uppercamelcase
 variable
 variables
-virtual machine
-visibility
-visibility type
-vm
 void
 while
-windows
 wrapper class
 wrapper classes
-writers
 writing
