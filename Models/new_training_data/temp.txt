@@ -1,0 +1,22 @@
+{ 'void', 'return', 'public', 'public class HelloWorld', 'protected', 'short', 'byte', 'do',  '}', 'string', 'System.out.println', 'else', 'char', 'double',  'static', 'package', 'boolean',  'java', 'for', '//-->Variables<--', 'public static void', 'int',  '{', 'public static', 'System', 'float', 'throw'}
+
+
+
+
+BAD
+'System.out.println("My name is Nathan Ong!");'
+'//End class Hello'
+'//String name = "Nathan Ong";'
+'public class Name { { String name = "Nathan Ong"; System.out.print(name); System.out.print(" is "); System.out.println(name); } }'
+'[]'
+"//I'm so lazy, I don't want to type in my name when printing it out all the time."
+'//Now I can call name wherever I want (not really)!'
+'public static void main(String[] args)'
+'public class Hello'
+'//end method main'
+'public class Name { //Declaring a new variable: Type name = value; Changing the old variable: name = newValue; }'
+'//What if I want to use my name in another print statement?'
+'public class Name {'
+'public class Name { public static void main(String[] args) { String name = "Nathan Ong"; System.out.println(name); name = "Brandon Ong"; System.out.println(name); } }'
+
+
