@@ -1,0 +1,19 @@
+Duplicated Concepts (4 or more occurrences) and Their Counts:
+binary tree: 5
+class: 4
+function: 4
+hash table: 5
+if: 4
+integer: 4
+length: 4
+machine: 4
+memory: 4
+policy: 4
+programming: 5
+recursion: 5
+size: 5
+state: 4
+statement: 4
+string: 4
+domain: 4
+hash: 4

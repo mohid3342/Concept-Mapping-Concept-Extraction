@@ -36,7 +36,7 @@ plt.figure(figsize=(10, 6))
 
 plt.bar(x - width, precision, width, label='Precision')
 plt.bar(x, recall, width, label='Recall')
-plt.bar(x + width, f1, width, label='F1 Score')
+plt.bar(x + width, f1, width, label='F1 Cars')
 
 plt.xticks(x, names, rotation=30)
 plt.ylabel("Score")
