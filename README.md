@@ -1,2 +1,2 @@
 # Concept-Mapping-Concept-Extraction
-The goal is to extract concepts from instructor course materials, namely from PowerPoint or other forms of slideshows. 
+The goal is to extract concepts from instructor course materials, such as PowerPoint or other forms of slideshows. 
